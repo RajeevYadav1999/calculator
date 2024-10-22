@@ -1,0 +1,31 @@
+/* App.css */
+.scroll-line-container {
+    width: 4px;
+    height: 100vh;
+    /* overflow: hidden; */
+    position: relative;
+  }
+  
+  .scroll-line {
+    width: 5px;
+    background-image:linear-gradient(to right, #535CF1, #A147E4);
+    position: absolute;
+    transition: height 0.5s ease;
+    transform: translate(60px, 5px); /* Add a smooth transition effect */
+    z-index: 0;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  .scroll-line-dot{
+    width: 5px;
+    background-image:linear-gradient(to right, #535CF1, #A147E4);
+    height: 5px;
+    border-radius: 50%;
+    padding: 5px;
+    transform: translate(55px, 5px);
+    z-index: 100;
+  }
+  /* Additional styles for your page content */
+  

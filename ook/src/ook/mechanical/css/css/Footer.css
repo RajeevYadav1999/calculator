@@ -1,0 +1,7 @@
+button.toogle-button.btn.btn-over-theme.btn-float{
+    background-image: linear-gradient(to right, #535CF1, #A147E4);
+  }
+  button.toogle-button.btn.btn-over-theme.btn-float:hover{
+    background: #fff;
+    color: black;
+  }

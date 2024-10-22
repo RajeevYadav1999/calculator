@@ -1,0 +1,62 @@
+.FCwelding h1.FCH1{
+    letter-spacing: 1px;
+    font-size: 38px;
+    margin: 0px 0;
+    font-weight: 620;
+}
+.FCwelding h3.FCH3{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 20px;
+}
+.FCwelding h2.FCH1{
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.FA-navbar {
+    background-color: #000;
+    position: unset;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    padding: 0;
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    position: fixed;
+}
+
+.FA-navbar.sticky {
+    background: #000;
+}
+
+.FA-navbar img {
+    width: 40px;
+}
+.fasection .ME-solid-image-container img {
+    border-radius: 20px;
+    height: 400px;
+    width: 100%;
+}
+.fasection .ME-solid-image-container {
+    width: 65%;
+    margin-left: 30px;
+    height: 95%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.fasection section.ME-Solid-Wireframe-modelling, .fasection section.ME-Solid-Solid-modelling, .fasection section.ME-Solid-Surface-modelling {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1% 0%;
+}
+.fasection .gbp-button.gbp-button--ghost.js-overwriteLink{
+    width: 100PX;
+    padding: 10px;
+    background: none;
+    transition: 0.5s;
+}

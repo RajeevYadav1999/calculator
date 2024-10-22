@@ -1,0 +1,38 @@
+body {
+    line-height: 108%;
+    font-family: Calibri;
+    font-size: 11pt
+}
+
+p {
+    margin: 0pt 0pt 8pt
+}
+
+li,
+table {
+    margin-top: 0pt;
+    margin-bottom: 8pt
+}
+
+.ListParagraph {
+    margin-left: 36pt;
+    margin-bottom: 8pt;
+    line-height: 108%;
+    font-size: 11pt
+}
+
+table {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+tbody{
+    width: 80%;
+}

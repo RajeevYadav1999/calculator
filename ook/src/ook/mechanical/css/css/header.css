@@ -1,0 +1,102 @@
+.home-header-section{
+    width: 100%;
+    height: 100vh;
+}
+.home-header-section .home-background-video{
+    height: 100%;
+    width: 100%;
+    background: #000;
+}
+.home-header-section .home-background-video video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+.home-header-section-text{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+.home-header-section-text h3{
+    color: #fff;
+    font-size: 60px;
+    line-height: 55px;
+    font-weight: 300;
+    margin: 10px 0;
+}
+.home-header-section-text button{
+    font-size: 15px;
+    background: #fff;
+    color: #000;
+    margin: 15px 0;
+    padding: 6px 17px;
+    border-radius: 30px;
+}
+/* .image-container{
+    transition: 1s;
+}
+.background{
+    width: 100%;
+    height: 87vh;
+    background: linear-gradient(45deg, #00000063, #00000063),url(../images/img/download.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider-1 .center,
+.slider-2 .center{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1.b-title.myh1 {
+    font-size: 5vw;
+    margin: 0%;
+    text-align: center;
+    color: #fff;
+}
+p.b-para.mypara {
+    font-size: 2vw;
+    text-align: center;
+}
+
+@media (max-width: 500px){
+    h1.b-title.myh1 {
+        font-size: 7vw;
+        margin: 0;
+    }
+    p.b-para.mypara {
+        font-size: 3vw;
+    }
+}
+.backgound-2{
+    background-image: linear-gradient(to right, #535cf194, #a147e4b5),url("../images/img/Screenshot\ \(148\).png")!important;
+    background-size: cover!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    width: 100%!important;
+    height: 87vh;
+}
+.slider-2 .center{
+    left: 50%!important;
+}
+.header .slick-next:before, .slick-prev:before {
+    font-size: 20px;
+    line-height: 1;
+    opacity: 1;
+}
+.header .slick-prev {
+    left: 0px;
+    z-index: 1;
+}
+.header .slick-next {
+    right: 0px;
+} */

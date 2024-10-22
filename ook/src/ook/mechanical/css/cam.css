@@ -1,0 +1,55 @@
+.Cam-sec-section-casting-img-overlay{
+    background: #000;
+    width: 44.5%;
+    height: 445px;
+    position: absolute;
+    margin-left: 2%;
+    z-index: 1;
+    transform: translate(0px, 30px);
+    opacity: 0.4;
+    border-radius: 20px;
+}
+.Cam-sec-section-forging-img-overlay{
+    background: #000;
+    width: 44.5%;
+    height: 444px;
+    position: absolute;
+    margin-left: 2%;
+    z-index: 1;
+    transform: translate(109%, 30px);
+    opacity: 0.5;
+    border-radius: 20px;
+}
+.Cam-sec-section-machining-img-overlay{
+    background: #000;
+    width: 44.5%;
+    height: 472px;
+    position: absolute;
+    margin-left: 2%;
+    z-index: 1;
+    transform: translate(0px, 30px);
+    opacity: 0.4;
+    border-radius: 20px;
+}
+.Cam-sec-section-joining-img-overlay{
+    background: #000;
+    width: 44.5%;
+    height: 444px;
+    position: absolute;
+    margin-left: 2%;
+    z-index: 1;
+    transform: translate(109%, 30px);
+    opacity: 0.5;
+    border-radius: 20px;
+}
+.Cam-sec-section-finishing-img-overlay{
+    background: #000;
+    width: 44.5%;
+    height: 472px;
+    position: absolute;
+    margin-left: 2%;
+    z-index: 1;
+    transform: translate(0px, 30px);
+    opacity: 0.4;
+    border-radius: 20px;
+}

@@ -1,0 +1,176 @@
+dot {
+    padding: 3px;
+    border: 1px solid #000;
+    background: #000;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+}
+.BendingMomentXaxisUnits g.rv-xy-plot__axis__ticks {
+    transform: translate(50px, 0px);
+}
+/* g.rv-xy-plot__axis.rv-xy-plot__axis--horizontal {
+    transform: none;
+}
+path.rv-xy-plot__series.rv-xy-plot__series--line {
+    transform: none;
+    width: 100%;
+} */
+.path.rv-xy-plot__series.rv-xy-plot__series--line {
+    transform: translate(40px, 10px);
+}
+.ScrollTransactionTwoBeamDeflactionDropDown.show.ScrollTransactionOne.ScrollTransactionTwo.LoadBendingDeflectionclasses {
+    top: 208% !important;
+    width: 40vw;
+    padding: 20px 0px;
+}
+/* g.rv-xy-plot__axis.rv-xy-plot__axis--horizontal {
+    transform: translate(0px, 35px);
+} */
+.Beamplot g.rv-xy-plot__axis.rv-xy-plot__axis--horizontal {
+    transform: translate(36px, 35px)!important;
+}
+.Beamplot svg.rv-xy-plot__inner {
+    transform: translate(-3%, 0px);
+}
+.BeamLinkBtntoBeamProperies-Addsupport {
+    background: white;
+    border-radius: 8px;
+    padding: 2px 17px;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 16px;
+    color: #7933a4;
+    font-weight: 600;
+    right: 2.2%;
+    transform: translate(85%, 10px);
+}
+
+.BeamLinkBtntoBeamProperies.BeamLinkBtntoBeamProperies-AddLoad {
+    transform: translate(175%, 0px);
+}
+
+.SupportImggraph g.rv-xy-plot__axis.rv-xy-plot__axis--horizontal {
+    transform: translate(4px, 50%);
+}
+
+.rv-xy-plot__axis__title text {
+    fill: #000000 !important;
+    font-size: 11px;
+}
+
+.structure-analysis-calculator-calculator-center.center .rv-xy-plot__axis__line {
+    fill: none;
+    stroke-width: 2px;
+    stroke: #000000;
+}
+
+.structure-analysis-calculator-calculator-center.center .rv-xy-plot {
+    color: #000000;
+    position: relative;
+}
+
+.structure-analysis-calculator-calculator-center.center .rv-xy-plot__axis__tick__line {
+    stroke: #000000;
+}
+.rv-xy-plot.SupportImggraph {
+    transform: translate(0px, -65%);
+}
+.gbp-h3.structure-analysis-calculator-information-h3 {
+    transform: translate(50px, 0px);
+    transition: 0.5s ease-in-out;
+
+}
+.rightBeamDeflactionDropDown.reactiongraph g.rv-xy-plot__axis.rv-xy-plot__axis--horizontal {
+    transform: translate(30px, 40px);
+}
+.gbp-h3.structure-analysis-calculator-information-h3.defination,
+.gbp-h3.structure-analysis-calculator-information-h3-button-Discovermore {
+    transform: translate(50px, 0px);
+    opacity: 0;
+}
+
+.gbp-h3.structure-analysis-calculator-information-h3.scrolled {
+    animation-name: blackBoxTransactionheading;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+    transform: translate(0px, 0px);
+}
+
+.gbp-h3.structure-analysis-calculator-information-h3-button-Discovermore.scrolled {
+    animation-delay: 0.7s !important;
+}
+
+.gbp-h3.structure-analysis-calculator-information-h3.defination.scrolled,
+.gbp-h3.structure-analysis-calculator-information-h3-button-Discovermore.scrolled {
+    animation-name: blackBoxTransactiondescriptionbtn;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    transform: translate(0px, 0px);
+    animation-delay: 0.5s;
+    opacity: 1;
+}
+
+.show.ScrollTransactionOne.rightBeamDeflactionDropDown {
+    top: 115% !important;
+    width: 40vw;
+    padding: 20px 0px;
+}
+
+.ScrollTransactionTwoBeamDeflactionDropDown.show.ScrollTransactionOne.ScrollTransactionTwo {
+    top: 260% !important;
+    width: 40vw;
+    padding: 20px 0px;
+}
+
+.ScrollTransactionTwoBeamDeflactionDropDown.show.ScrollTransactionOne.ScrollTransactionTwo.top405{
+    top: 405% !important;
+}
+.Beamdeflaction.height110 {
+    height: 220vh !important;
+}
+
+.Beamdeflaction.height110.height0 {
+    height: 0vh !important;
+}
+
+.BeamLinkBtntoBeamProperies {
+    background: white;
+    border-radius: 8px;
+    padding: 2px 17px;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 16px;
+    color: #7933a4;
+    font-weight: 600;
+    right: 2.2%;
+    transform: translate(220%, 10px);
+}
+
+.BeamLinkBtntoBeamProperies a {
+    color: #7933a4;
+    text-decoration: none;
+}
+
+@keyframes blackBoxTransactionheading {
+    from {
+        transform: translate(50px, 0px);
+    }
+
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes blackBoxTransactiondescriptionbtn {
+    from {
+        transform: translate(50px, 0px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0px, 0px);
+        opacity: 1;
+    }
+}

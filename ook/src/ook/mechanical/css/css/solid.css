@@ -1,0 +1,243 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+li {
+    color: #000;
+    text-align: left;
+}
+
+section.ME-Solid-Wireframe-modelling,
+section.ME-Solid-Solid-modelling,
+section.ME-Solid-Surface-modelling {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1% 5%;
+}
+
+.ME-solid-image-container {
+    width: 75%;
+    margin-left: 30px;
+}
+
+.ME-solid-image-container img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.content {
+    display: flex;
+    margin-left: 40px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ME-center {
+    text-align: center;
+}
+
+.gbp-h3 {
+    width: 100%;
+    transform: none;
+    position: static;
+    font-size: 28px;
+    line-height: 37px;
+    letter-spacing: -.1px;
+    font-family: BMWTypeNext, Helvetica Neue, -apple-system, "system-ui", BlinkMacSystemFont, serif;
+    font-size: 28px;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 26px;
+    letter-spacing: 1.9px;
+    padding: 15px 0;
+}
+
+.gbp-copy--m {
+    width: 75%;
+    transform: none;
+    position: static;
+    font-size: 28px;
+    line-height: 37px;
+    letter-spacing: -.1px;
+    font-family: BMWTypeNext, Helvetica Neue, -apple-system, "system-ui", BlinkMacSystemFont, serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 26px;
+    letter-spacing: -.1px;
+    padding-bottom: 16px;
+}
+
+.gbp-button.gbp-button--ghost.js-overwriteLink {
+    width: 18%;
+    padding: 10px;
+    background: none;
+    transition: 0.5s;
+}
+
+.ME-header-section {
+    width: 100%;
+    background: #000;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.ME-header-section img {
+    opacity: 0.7;
+    width: 100%;
+}
+
+.ME-header-section .gbp-h3 {
+    font-size: 42px;
+    position: absolute;
+    top: 22%;
+    color: rgb(255, 255, 255)!important;
+    width: 100%;
+    text-align: center !important;
+}
+
+.gbp-button.gbp-button--ghost.js-overwriteLink a {
+    text-decoration: none;
+    color: #000;
+}
+
+.gbp-button.gbp-button--ghost.js-overwriteLink:hover {
+    background: linear-gradient(to right, #535CF1, #A147E4);
+    color: #fff;
+}
+
+.gbp-button.gbp-button--ghost.js-overwriteLink:hover .gbp-button.gbp-button--ghost.js-overwriteLink a {
+    color: #fff;
+}
+
+.trans-image,
+.trans-image1,
+.trans-image2 {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+div.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2% 0.2%;
+}
+
+.react-multi-carousel-list {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin: 0px 0%;
+}
+
+.card button {
+    background: none;
+    margin: 10px 0;
+    padding: 10px;
+    color: #000;
+    transition: 0.5s;
+}
+
+.card p {
+    font-size: 14px;
+    font-weight: 380;
+}
+
+.card h2 {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 10px 35px;
+}
+
+.card button:hover {
+    background-image: linear-gradient(to right, #535CF1, #A147E4);
+}
+
+.card button:hover a {
+    color: #fff;
+}
+
+.card button a {
+    text-decoration: none;
+    color: #000;
+}
+
+section.can-sliders {
+    overflow-y: scroll;
+    height: 78vh;
+}
+
+.gbp-casting {
+    top: 160% !important;
+}
+
+.gbp-forming {
+    top: 260% !important;
+}
+
+.gbp-machining {
+    top: 415% !important;
+}
+
+.gbp-joining {
+    top: 570% !important;
+}
+
+.gbp-assembly {
+    top: 665% !important;
+}
+
+.gbp-finishing {
+    top: 820% !important;
+}
+
+.up40percent {
+    position: relative;
+    top: -56%;
+}
+
+.card img {
+    height: 420px;
+}
+navbar ul li a{
+    text-transform: uppercase;
+}
+
+.bubble {
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(to right, #535CF1, #A147E4);
+    box-shadow: 3px 2px 5px 0px #bcbcbc;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .bubble.bubble1 {
+    top: 80px;
+    left: 120px;
+  }
+  
+  .bubble.bubble2 {
+    top: 30%;
+    left: 0px;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .bubble.bubble3 {
+    top: 8%;
+    left: 92%;
+    width: 90px;
+    height: 90px;
+    right: 100%;
+  }
+  

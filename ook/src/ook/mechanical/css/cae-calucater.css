@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+}
+.cae .container {
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: block;
+    float: right;
+    border-radius: 50px;
+    border: 10px solid #000;
+    position: sticky;
+}
+
+.cae .sub-container, .myDiv {
+    background-color: white;
+    /* border: 1px solid black; */
+    padding: 20px;
+    width: 500px;
+}
+
+.cae .top {
+    align-self: flex-start;
+}
+
+.cae .center {
+    align-self: center;
+}
+
+.cae .bottom {
+    align-self: flex-end;
+}
+
+.cae img {
+    width: 37.8vh;
+    height: 50.5vh;
+    border-radius: 20px;
+}
+
+.cae div.sub-container.top, div.sub-container.bottom, .myDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cae select {
+    border: none;
+}
+
+.cae .two .sub-container.top,
+.cae .two .sub-container.bottom {
+    height: 20px;
+    align-items: center;
+}
+
+.cae div.hide {
+    display: none !important;
+}
+.cae .myDiv.hidden {
+    display: none;
+}
+section.cae {
+    background: linear-gradient(to right, #000000de, #201d45, #000000de);
+    padding: 20px 40px;
+    height: 200vh;
+    width: 100pc;
+}
+.cae .container2{
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    width: -moz-fit-content;
+    width: fit-content;
+    float: left;
+    border-radius: 50px;
+    width: 500px;
+    height: 700px;
+}

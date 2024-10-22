@@ -1,0 +1,425 @@
+.rightPadeyeDropDown.show,
+.secondrightPadeyeDropDown.show,
+.ScrollTransactionTwoPadeyeDropDown.show,
+.ScrollTransactionTworightPadeyeDropDown.show,
+.ScrollTransactionThirdPadeyeDropDown.show,
+.ScrollTransactionThirdrightPadeyeDropDown.show{
+    position: absolute;
+    background-image: linear-gradient(to right, #3a2164, #181a46);
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 21px;
+    width: 38vw;
+    left: 0%;
+    transition: 0.8s ease-in-out;
+    overflow: auto;
+}
+.rightPadeyeDropDown.hidden,
+.secondrightPadeyeDropDown.hidden,
+.ScrollTransactionTwoPadeyeDropDown.hidden,
+.ScrollTransactionTworightPadeyeDropDown.hidden,
+.ScrollTransactionThirdPadeyeDropDown.hidden,
+.ScrollTransactionThirdrightPadeyeDropDown.hidden{
+    overflow: hidden;
+    position: absolute;
+    background-image: linear-gradient(to right, #3a2164, #181a46);
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 21px;
+    width: 35.2vw;
+    transform: translate(0%, 0%);
+    transition: 0.8s ease-in-out;
+    left: 0%;
+    z-index: 0;
+    top: 0% !important;
+    height: 21vw !important;
+    opacity: 0;
+}
+.background-white.PadEye{
+    overflow: hidden;
+}
+.sigma-symbol.outer-sigma-symbol{
+    color: #fff;
+    margin: 0 15px;
+}
+.structure-analysis-calculator-calculator-right.PadeyeCalculator h3.sigma-symbol.outer-sigma-symbol .power {
+    font-size: 1.2vw !important;
+    font-weight: 500;
+}
+.structure-analysis-calculator-calculator-right.PadeyeCalculator h3.sigma-symbol.sigmawithshorterlowerPower .LowerPower {
+    font-size: 0.6vw !important;
+}
+.PadEye .calculator-first-section-imgdiv {
+    overflow: hidden;
+}
+
+.PadEye .calculator-first-section-textdiv {
+    position: absolute;
+    top: 8vw;
+    left: 5%;
+}
+
+.PadEye .calculator-first-section-imgdiv-img {
+    height: -moz-fit-content;
+    height: fit-content;
+    overflow: hidden;
+    transform: translate(100px, 10px);
+    width: 100%;
+}
+
+.margin-top-10px {
+    margin-top: 10px;
+}
+
+.Padeye-calculator-img {
+    width: 100%;
+}
+
+h3.sigma-symbol {
+    color: #5b5b5b;
+    font-weight: 500;
+}
+
+.show .padeye.Calculator-Side-A,
+.hidden .padeye.Calculator-Side-A {
+    width: 80%;
+    border: 3px solid #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 12px;
+    left: 50%;
+    /* top: 0; */
+    transform: translate(-50%, 0%);
+}
+
+.padeye.show {
+    height: fit-content;
+    position: absolute;
+    top: 105% !IMPORTANT;
+    width: 28vw;
+    transform: translate(0%, 0%);
+    left: 0;
+}
+
+.padeye.hidden {
+    overflow: hidden;
+}
+.rightPadeyeDropDown.GeometryCheck.hidden.ScrollTransactionOne{
+    overflow: hidden;
+    position: absolute;
+    background-image: linear-gradient(to right, #3a2164, #181a46);
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 21px;
+    width: 35.2vw;
+    /* transform: translate(-50%, -50%); */
+    transition: 0.8s ease-in-out;
+    left: 50%!important;
+    z-index: 0;
+    top: 0%!important;
+    height: 21vw !important;
+    opacity: 0;
+}
+.rightPadeyeDropDown.GeometryCheck.hidden.ScrollTransactionOne{
+    overflow: hidden;
+    position: absolute;
+    background-image: linear-gradient(to right, #3a2164, #181a46);
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 21px;
+    width: 35.2vw;
+    /* transform: translate(-50%, -50%); */
+    transition: 0.8s ease-in-out;
+    left: 50%!important;
+    z-index: 0;
+    top: 0%!important;
+    height: 21vw !important;
+    opacity: 0;
+}
+/* scroll bar */
+.show::-webkit-scrollbar,
+.hidden::-webkit-scrollbar {
+    width: 0px;
+}
+
+/*  */
+.Padeye-InputParameters-DropDown {
+    height: 0;
+    transition: 0.8s;
+    opacity: 0;
+    margin: auto;
+    padding: 0px;
+    overflow: hidden;
+    background: #0000;
+    width: 82%;
+    background: #ffffff !important;
+    border: 1px solid;
+    border-radius: 30px;
+}
+
+.Padeye-InputParameters-DropDown.active {
+    padding: 0px 2%;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 80%;
+    opacity: 1;
+    margin: auto;
+}
+
+.calculator-info-blue-section-main-topic.InnerDropDownHeading{
+    font-size: 3vw!important;
+}
+
+button.gbp-h3.structure-analysis-calculator-information-h3-button-Discovermore.InnerDropDownBtn {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/* 3rd transaction with only one play */
+.calculator-defination-div {
+    height: 45.6vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.calculator-defination-div.SectionModules,
+.calculator-defination-div.BeamDeflection {
+    height: 55vh;
+}
+
+.calculator-defination-div.AboutUs {
+    height: 40vh;
+}
+
+.calculator-defination-div.AboutUsVision {
+    height: 40vh;
+    width: 30%;
+}
+
+.calculator-defination-div.Workwithus {
+    height: 50vh;
+}
+
+.calculator-defination-section-div {
+    height: 0vh;
+    position: absolute;
+    transition: height 1.2s ease;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.calculator-defination-section-div.expanded {
+    height: 32vh;
+}
+
+.calculator-defination-section-div.BeamDeflection.expanded,
+.calculator-defination-section-div.Workwithus.expanded {
+    height: 50vh;
+}
+
+.calculator-defination-section-div.SectionModules.expanded {
+    height: 40vh;
+}
+
+.calculator-defination-section-div.AboutUs.expanded {
+    height: 30vh;
+}
+
+.calculator-defination-section-div.AboutUsVision.expanded {
+    height: 20vh;
+}
+
+.Beam-properties-calculator-heading {
+    opacity: 0;
+    transition: 1.2s ease;
+}
+
+.Beam-properties-calculator-heading.expanded {
+    opacity: 1;
+}
+.structure-analysis-calculator-calculator-right.PadeyeCalculator h3.sigma-symbol {
+    font-size: 0.8vw;
+}
+.structure-analysis-calculator-calculator-right.PadeyeCalculator h3.sigma-symbol .power{
+    font-size: 0.8vw!important;
+}
+.structure-analysis-calculator-calculator-right.PadeyeCalculator h3.sigma-symbol .LowerPower{
+    font-size: 0.8vw!important;
+}
+/* Calclator transaction */
+.hidden.AllowableStressedAndDesignLoads {
+    top: 50%;
+    height: 26vw;
+    z-index: 1;
+    left: 0 !important;
+    transition: 0.8s ease-in-out;
+}
+
+.show.AllowableStressedAndDesignLoads {
+    top: 115%;
+    height: 45vw;
+    z-index: 1;
+    left: 0;
+    transition: 0.8s ease-in-out;
+}
+.structure-analysis-calculator-calculator-right.PadeyeCalculator .Calculator-Side-A {
+    background: white;
+    color: #000;
+    border: 2px solid white;
+    display: flex;
+    justify-content: end;
+    border-radius: 50px;
+    padding: 7px 10px;
+    width: 68%;
+    align-items: center;
+    margin: 10px 0px;
+}
+.show.ScrollTransactionOne {
+    top: 115% !important;
+}
+.show.secondrightPadeyeDropDown.ScrollTransactionOne {
+    top: 202% !important;
+}
+.show.ScrollTransactionOne.ScrollTransactionTwo {
+    top: 290% !important;
+}
+.show.secondrightPadeyeDropDown.ScrollTransactionOne.ScrollTransactionTwo {
+    top: 290% !important;
+}
+.show.ScrollTransactionOne.ScrollTransactionTwo.ScrollTransactionThree {
+    top: 465% !important;
+}
+.rightPadeyeDropDown .Calculator-Side-A, 
+.secondrightPadeyeDropDown .Calculator-Side-A, 
+.ScrollTransactionTwoPadeyeDropDown .Calculator-Side-A, 
+.ScrollTransactionTworightPadeyeDropDown .Calculator-Side-A, 
+.ScrollTransactionThirdPadeyeDropDown .Calculator-Side-A, 
+.ScrollTransactionThirdrightPadeyeDropDown .Calculator-Side-A {
+    width: 35% !important;
+}
+
+.rightPadeyeDropDown .Calculator-Side-A h3.sigma-symbol, 
+.secondrightPadeyeDropDown .Calculator-Side-A h3.sigma-symbol, 
+.ScrollTransactionTwoPadeyeDropDown .Calculator-Side-A h3.sigma-symbol, 
+.ScrollTransactionTworightPadeyeDropDown .Calculator-Side-A h3.sigma-symbol, 
+.ScrollTransactionThirdPadeyeDropDown .Calculator-Side-A h3.sigma-symbol, 
+.ScrollTransactionThirdrightPadeyeDropDown .Calculator-Side-A h3.sigma-symbol {
+    font-size: 1.2vw!important;
+}
+
+.Calculator-Side-A.outer-sigma-symbol-input{
+    width: 41% !important;
+}
+.ScrollTransactionTwoPadeyeDropDown .Calculator-Side-A.outer-sigma-symbol-input-width-40{
+    width: 42%!important;
+}
+.padeye.height110 {
+    height: 160vw;
+}
+.padeye.height110.height0 {
+    height: 8vw;
+}
+@keyframes CalclatorTransaction1 {
+    from {
+        top: 0;
+        height: 26vw;
+        z-index: 1;
+    }
+
+    to {
+        top: 105% !IMPORTANT;
+        height: 45vw;
+        z-index: 1;
+    }
+
+}
+
+@keyframes CalclatorTransaction2 {
+    from {
+        top: 0;
+        height: 26vw;
+        z-index: 1;
+    }
+
+    to {
+        top: 105% !IMPORTANT;
+        height: 20vw;
+        z-index: 1;
+    }
+
+}
+
+@keyframes CalclatorTransaction3 {
+    from {
+        top: 0;
+        height: 26vw;
+        z-index: 2;
+    }
+
+    50% {
+        top: 105% !IMPORTANT;
+        height: 20vw;
+        z-index: 2;
+    }
+
+    to {
+        top: 202%;
+        height: 20vw;
+        z-index: 2;
+    }
+}
+
+@keyframes CalclatorTransaction4 {
+    from {
+        top: 0;
+        height: 26vw;
+        z-index: 2;
+    }
+
+    50% {
+        top: 105% !IMPORTANT;
+        height: 45vw;
+        z-index: 2;
+    }
+
+    to {
+        top: 290%;
+        height: 45vw;
+        z-index: 2;
+    }
+}
+
+@keyframes CalclatorTransaction5 {
+    from {
+        top: 0;
+        height: 26vw;
+        z-index: 2;
+    }
+
+    50% {
+        top: 105% !IMPORTANT;
+        height: 45vw;
+        z-index: 2;
+    }
+
+    to {
+        top: 290%;
+        height: 45vw;
+        z-index: 2;
+    }
+}
+
+@keyframes CalclatorTransaction6 {
+    from {
+        top: 0;
+        height: 26vw;
+        z-index: 2;
+    }
+
+    to {
+        top: 465%;
+        height: 20vw;
+        z-index: 2;
+    }
+}

@@ -1,0 +1,419 @@
+#root {
+    overflow: hidden;
+}
+
+/* navbar css */
+*,
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(0 0 0 / 90%);
+    padding: 10px 30px;
+}
+
+.ME-navbar {
+    background: #000000;
+    position: fixed;
+    width: 100%;
+    z-index: 8;
+    display: flex;
+    padding: 0;
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.ME-navbar img {
+    width: 40px;
+}
+
+nav .menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+nav .menu ul li {
+    list-style: none;
+}
+
+nav .menu ul li {
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
+nav .menu ul li.list-item {
+    transform: scale(1);
+    transition: 0.5s;
+    display: block;
+}
+
+nav .menu ul li.list-item.hide-item {
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+.menu ul li:nth-child(1) {
+    transition-delay: 0.9s !important;
+}
+
+.menu ul li:nth-child(2) {
+    transition-delay: 0.8s !important;
+}
+
+.menu ul li:nth-child(3) {
+    transition-delay: 0.7s !important;
+}
+
+.menu ul li:nth-child(4) {
+    transition-delay: 0.6s !important;
+}
+
+.menu ul li:nth-child(5) {
+    transition-delay: 0.5s !important;
+}
+
+.menu ul li:nth-child(6) {
+    transition-delay: 0.4s !important;
+}
+
+.menu ul li:nth-child(7) {
+    transition-delay: 0.3s !important;
+}
+
+.search-form {
+    position: absolute;
+    top: -4px;
+    ;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    height: 44px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.search-form.active {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.5s;
+}
+
+.search-form input {
+    width: 100%;
+    height: 44px;
+    background: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-form::placeholder {
+    color: #fff;
+}
+
+.search-form form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-form form i {
+    color: #fff;
+}
+
+.document-type-pop-up-main.document-type-pop-up-main-3.subheadings {
+    transform: translate(870px, 250px);
+}
+
+.HTML-intro-discover-more-div-ul-li.last-child {
+    margin-bottom: 0px !important;
+}
+
+.HTML-intro-discover-more-div.paragraph {
+    height: 190px;
+}
+
+.cse-left-side-navbar {
+    display: grid;
+    grid-template-columns: 1fr 9.5fr;
+}
+
+.cse-left-side-navbar-left-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f7f7f7;
+}
+
+
+.cse-nav-right-div-img img {
+    position: relative;
+    left: 0;
+    height: 100%;
+}
+
+.structure-analysis-calculator .gbp-h3.left {
+    font-size: 42px;
+    position: absolute;
+    top: 390px;
+    color: rgb(255, 255, 255) !important;
+    text-transform: uppercase;
+    font-weight: 400;
+    left: 5% !important;
+}
+
+.structure-analysis-calculator h4 {
+    font-size: 20px;
+    position: absolute;
+    top: 450px;
+    color: rgb(255, 255, 255) !important;
+    width: 100%;
+    text-align: left !important;
+    left: 5%;
+    font-weight: 100;
+}
+
+.ME-header-section.structure-analysis-calculator {
+    width: 100%;
+    background: #000;
+    height: 88vh;
+    overflow: hidden;
+}
+
+.structure-analysis-calculator-calculator {
+    display: grid;
+    /* position: relative; */
+    width: 90%;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    background-image: linear-gradient(to right, #181a46, #803cb2);
+    /* top: 50%; */
+    /* left: 50%; */
+    transform: translate(6%, 6%);
+    border: 5px solid black;
+    border-radius: 30px;
+}
+
+.structure-analysis-calculator-calculator-left {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    height: 78vh;
+    /* padding-top: 55px; */
+}
+
+
+
+.structure-analysis-calculator-formula-dropdown-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 90%; */
+    flex-direction: column;
+}
+
+.mae-cad-info-second-section-main-grid-explore-more-grid {
+    grid-template-columns: 2fr 1fr !important;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+
+
+
+
+
+.structure-analysis-calculator-formula-dropdown-section-img {
+    height: 350px;
+    width: 550px;
+}
+
+.SheetMetal.mae-cad-info-views-explore-more-section-blue-text.mae-cad-info-blue-section-main.active.structure-analysis-calculator-formula-dropdown-section {
+    width: 90%;
+    background: #ffffff !important;
+}
+
+.SheetMetal.mae-cad-info-views-explore-more-section-blue-text.mae-cad-info-blue-section-main.active.structure-analysis-calculator-formula-dropdown-section .mae-cad-info-blue-section-main-topic.margin-bottom-10px {
+    width: 100%;
+    font-size: 28px !important;
+}
+
+.mae-cad-info-blue-section-main-topic.margin-bottom-10px.font-size-23 {
+    font-size: 23px !important;
+}
+
+.font-size-20,
+.structure-analysis-calculator-formula-dropdown-section .SheetMetal.mae-cad-info-views-explore-more-section-blue-text.mae-cad-info-blue-section-main.structure-analysis-calculator-formula-dropdown-section .mae-cad-info-blue-section-main-topic.margin-bottom-10px.font-size-20 {
+    font-size: 20px !important;
+}
+
+.grid-template-columns-1fr-1fr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 85%;
+}
+
+.grid-template-columns-1fr-1fr img {
+    width: 250px;
+    float: right;
+}
+
+.grid-template-columns-1fr-1fr div h3 {
+    font-size: 15px;
+}
+
+.structure-analysis-calculator-calculator-left button {
+    background: none;
+    border: 1px solid #fff;
+    padding: 8px 7px;
+    /* text-align: left; */
+    color: #fff;
+    width: 260px;
+    margin: 8px 0;
+    border-radius: 11px
+}
+
+.structure-analysis-calculator-calculator-center.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    z-index: 10;
+}
+
+.structure-analysis-calculator-calculator-right .claculator-conversation-title {
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.structure-analysis-calculator-calculator-right input.calculator-input {
+    background: transparent;
+    color: #fff;
+    margin: 0;
+}
+
+.structure-analysis-calculator-calculator-right .Calculator-select-option {
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #fff;
+}
+
+.structure-analysis-calculator-calculator-right option {
+    background: #1e2333;
+    color: #fff;
+}
+.show .Calculator-Side-A,
+.hidden .Calculator-Side-A {
+    width: 65%;
+    border: 3px solid #fff;
+    padding: 10px;
+    position: relative;
+    border-radius: 12px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.structure-analysis-calculator-calculator-right {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* width: 84%; */
+    padding-top: 55px;
+    background: transparent;
+    padding: 55px 20px;
+}
+.structure-analysis-calculator-calculator-left-heading {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: -0.1px;
+    margin-left: 20px;
+}
+.structure-analysis-calculator-calculator-left div.px1dottedborder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    border: 1px dotted white;
+}
+.margin-2px {
+    margin: 2px;
+}
+.structure-analysis-calculator-calculator-right-show-hidden-btn {
+    background: white;
+    border-radius: 8px;
+    padding: 2px 17px;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 16px;
+    color: #7933a4;
+    font-weight: 600;
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+}
+.defination-section h3 {
+    width: 90%;
+    text-align: center !important;
+    margin: 20px auto;
+}
+.text-align-left,
+.gbp-h3.structure-analysis-calculator-information-h3.text-align-left {
+    text-align: left !important;
+}
+hr.Beam-properties-calculator-hr {
+    border: 1px solid #bcbcbc;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px auto;
+}
+
+.gbp-h3.structure-analysis-calculator-information-h3.heading {
+    font-size: 60px;
+    font-weight: 600;
+    color: #000 !important;
+}
+
+.gbp-h3.structure-analysis-calculator-information-h3.second-important {
+    color: #7f7f7f !important;
+    margin: 0 auto;
+}
+
+.gbp-h3.structure-analysis-calculator-information-h3.third-important {
+    color: #868686 !important;
+}
+
+h3.text-aligh-center {
+    position: relative;
+    top: 5%;
+    left: 67%;
+    transform: translate(-50%, -50%) !important;
+}
+
+.structure-analysis-calculator-formula-dropdown-section-img {
+    width: 300px;
+}
+
+.structure-analysis-calculator-formula-dropdown-section-formula-data {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}

@@ -1,0 +1,145 @@
+.mae-se-strutural-members-section-main {
+    width: 90%;
+    height: 74vh;
+}
+
+.mae-se-strutural-members-section-main-div-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.mae-se-strutural-members-section-main-div-1-background-img {
+    /* background-image: url('../../New folder/Screenshot\ \(140\).png'); */
+    width: 100%;
+    height: 100%;
+    /* background-repeat: no-repeat; */
+}
+
+.mae-se-strutural-members-section-main-div-1-overlay {
+    position: fixed;
+    top: 30%;
+}
+
+/* .mae-se-strutural-members-section-main-div-1-background-img-overlay{
+    background-color: #000;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+} */
+
+.mae-se-strutural-members-section-main-div-1-overlay {
+    padding: 5px 30px;
+    /* opacity: 0.7; */
+    width: 25%;
+    margin-left: 5%;
+}
+
+.mae-se-strutural-members-section-main-div-1-overlay-h1,
+.mae-se-strutural-members-section-main-div-1-overlay-p {
+    z-index: 10;
+    color: #fff;
+    position: relative;
+}
+
+.mae-se-strutural-members-section-main-div-1-overlay-h1 {
+    font-family: MBCorpoA, Georgia, serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: calc(48px + 8px);
+    margin-bottom: 4px;
+    width: 100%;
+    text-align: left;
+}
+
+.mae-se-strutural-members-section-main-div-1-overlay-p {
+    font-family: MBCorpoS, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: calc(16px + 8px);
+    float: left;
+    display: block;
+    /* margin-right: 7.4229717578%; */
+    text-align: left;
+}
+
+.mae-se-strutural-members-section-main-div-1-overlay::before {
+    content: "";
+    display: block;
+    position: relative;
+    background-color: #000;
+    opacity: .6;
+    position: absolute;
+    z-index: -1;
+    width: calc(100% + 60px);
+    height: calc(100% + 60px);
+    top: -30px;
+    left: -30px;
+}
+
+span.mae-cad-info-leftside-navbar-nav-link-nav-text.Analyis-dropdown {
+    color: #000;
+}
+
+footer.main-footer {
+    width: 100%;
+}
+
+.mae-se-strutural-members-section-main-div-1-background-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.SEstructural-membersSlider.swiper.mySwiper {
+    height: 100vh;
+}
+
+.SEstructural-membersSlider .swiper-wrapper {
+    left: 0px;
+}
+
+.SEstructural-membersSlider .swiper-wrapper .swiper-slide {
+    width: 100%;
+}
+
+.SEstructural-membersSlider .swiper-wrapper .swiper-slide .mae-se-strutural-members-section-main {
+    width: 90%;
+    height: 100%;
+}
+
+.SEstructural-membersSlider .swiper-wrapper .swiper-slide .mae-se-strutural-members-section-main .mae-se-strutural-members-section-main-div-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.SEstructural-membersSlider .swiper-wrapper .swiper-slide .mae-se-strutural-members-section-main .mae-se-strutural-members-section-main-div-1 .mae-se-strutural-members-section-main-div-1-background-img img {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+.carousel-buttons {
+    transform: translate(595px, 250px);
+    z-index: 8;
+}
+
+.carousel-buttons div {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 120px;
+    height: fit-content;
+    /* /* transform: translate(60px, 280px); */
+}
+
+.xd-one span {
+    margin: 80px 0px;
+}
+
+.xd-two span {
+    margin: 40px 0px;
+}
+
+.ui-three span {
+}

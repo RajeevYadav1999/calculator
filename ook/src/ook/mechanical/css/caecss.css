@@ -1,0 +1,126 @@
+#root {
+    width: 100%;
+    background: #fff;
+}
+.cae-first-section-imgdiv-img{
+    width: 100%;
+    transform: translate(0px, -10px);
+
+}
+.cae-first-section-imgdiv{
+    height: 111vh;
+}
+.cae-first-section-imgdiv-shades{
+    /* background: linear-gradient(45deg, #00000040, #00000038); */
+    width: 100%;
+    height: 120vh;
+    transform: translate(0px, -101%);
+}
+.cae-first-section-textdiv{
+    transform: translate(120px, -145%);
+}
+.cae-first-section-textdiv-button{
+    background: #fff;
+    border: 1px solid;
+    padding: 5px 15px;
+}
+.cae-first-section-textdiv-p{
+    color: #000!important;
+    font-size: 20px;
+    text-align: left;
+}
+.cas-sec-section-textdiv-h1{
+    color: #000!important;
+    text-align: left;
+}
+.cae-sec-section-textdiv-p{
+    color: #000!important;
+    font-size: 12px;
+    font-weight: 600;
+}
+.cae-sec-section-div{
+    margin-left: 200px;
+}
+.cae-sec-section-div.second{
+    margin-left: 50px;
+    display: block!important;
+}
+.cae-sec-section-div.second img{
+    width: 600px;
+    height: 450px;
+}
+.cae-sec-section-div img{
+    width: 450px;
+    height: 600px;
+}
+.cae-sec-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cae-third-section-textdiv{
+    transform: translate(8%, -320%);
+}
+.cae-third-section-textdiv-h1,
+.cae-third-section-textdiv-p{
+    color: #fff!important;
+}
+.cae-third-section-textdiv-button{
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.cae-third-section-img{
+    width: 100%;
+}
+.cae-first-section-div.first{
+    height: 100vh;
+}
+.cae-first-section-textdiv-button{
+    /* border: none;  */
+    border-radius: 50px;
+    padding: 5px 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.cae-first-section-textdiv-h1{
+    color: #000!important;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+.cae-sec-section .cse-info-box{
+    width: 450px;
+    margin-left: 200px;
+    /* height: 55%; */
+    margin-bottom: 0;
+}
+
+.cae-sec-section .cse-info-box .cse-info-box__img img{ 
+    height: 100%
+}
+.cae-first-section,
+.cae-sec-section {
+    background: #f1f1f1;
+}
+.cae-sec-section .cse-info-box.first{
+    height: 550px;
+}
+.cae-sec-section .cse-info-box.second{
+    margin-top: 40%;
+    width: 550px;
+    height: 450px;
+    margin-left: 100px;
+}
+
+.cae-sec-section .cse-info-box.second:hover .cse-info-box__description{
+    height: 190px!important;
+}
+.cae-sec-section .cse-info-box__img::before{
+    background-color: transparent;
+}
+.mae-cad-info-leftside-navbar-nav-link-nav-text a {
+    color: #000;
+}
+.margin-10px-bottom{
+    margin-bottom: 15px;
+}

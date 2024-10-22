@@ -1,0 +1,581 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* font-family: "Ubuntu", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* font-family: "Quicksand", sans-serif; */
+
+
+/* navbar css */
+*,
+body {
+    margin: 0;
+    /* width: 100%; */
+    /* overflow-x: hidden; */
+}
+
+.background-white {
+    background: #fff;
+    overflow: hidden;
+}
+
+.ME-navbar {
+    background: #000000;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    padding: 0;
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.ME-navbar img {
+    width: 40px;
+}
+
+/* first section */
+.calculator-first-section-imgdiv-img {
+    height: fit-content;
+    overflow: hidden;
+    width: 100%;
+}
+
+.calculator-first-section-imgdiv-img .calculator-first-section-imgdiv,
+.calculator-first-section-imgdiv-img .calculator-first-section-imgdiv img {
+    width: 100%;
+}
+
+.calculator-first-section-imgdiv-img .calculator-first-section-imgdiv img {
+    border-bottom: 5px solid;
+}
+
+.calculator-first-section-textdiv {
+    position: absolute;
+    top: 14vw;
+    left: 10%;
+}
+
+.calculator-first-section-textdiv-button {
+    background: #fff;
+    border: 1px solid;
+    padding: 5px 15px;
+}
+
+.calculator-first-section-textdiv-p {
+    color: #000 !important;
+    font-size: 1.5vw;
+    text-align: left;
+}
+
+.calculator-first-section-textdiv-h1 {
+    color: #000 !important;
+    font-size: 3vw;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+/* second section */
+.defination-section h3 {
+    text-align: center;
+}
+
+.Beam-properties-calculator-heading {
+    padding: 1vw 0;
+    font-size: 3vw;
+    text-align: center;
+    font-weight: 600;
+}
+
+.first-important,
+.second-important,
+.third-important {
+    font-size: 1.5vw;
+    font-weight: 500;
+    text-align: center;
+}
+
+.first-important {
+    color: #000000d4;
+}
+
+.second-important {
+    color: #000000ad;
+}
+
+.third-important {
+    color: #1d1d1d96;
+}
+
+hr.Beam-properties-calculator-hr {
+    border: 1px solid #bcbcbc;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4vw auto;
+}
+
+/* calculator section */
+.structure-analysis-calculator-calculator {
+    display: grid;
+    width: 90%;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    background-image: linear-gradient(to right, #181a46, #803cb2);
+    transform: translate(6%, 6%);
+    border: 5px solid black;
+    border-radius: 30px;
+}
+
+.structure-analysis-calculator-calculator-left {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.structure-analysis-calculator-calculator-left button {
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 12px 5px;
+    color: #000;
+    width: 70%;
+    font-size: 1vw;
+    margin: 8px 0;
+    border-radius: 30px;
+    font-family: 'DM Sans Merlin';
+}
+
+.structure-analysis-calculator-calculator-center.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.structure-analysis-calculator-calculator-right .claculator-conversation-title {
+    color: #fff !important;
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin: 0 0px;
+    width: 100%;
+    font-family: 'DM Sans Merlin';
+}
+
+
+.structure-analysis-calculator-calculator-right .Calculator-select-option {
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #000000;
+    z-index: 1;
+}
+
+.structure-analysis-calculator-calculator-right option {
+    background: #1e2333;
+    color: #fff;
+}
+
+.show .Calculator-Side-A,
+.hidden .Calculator-Side-A {
+    width: 55%;
+    border: 3px solid #fff;
+    padding: 10px;
+    position: relative;
+    border-radius: 12px;
+}
+
+section.cse-header-top {
+    transform: translate(-20px, -65px);
+    /* float: right; */
+    padding: 12px;
+    background: #fff;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 1px solid;
+    width: 16px;
+    height: 16px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+section.cse-header-top:hover {
+    background: #000;
+}
+
+section.cse-header-top:hover a {
+    color: white;
+
+}
+
+section.cse-header-top a {
+    transition: 0.2s;
+    color: #000;
+}
+
+.structure-analysis-calculator-calculator-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 55px;
+    background: transparent;
+    padding: 25px 20px 55px 20px;
+}
+
+.structure-analysis-calculator-calculator-left-heading {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: -0.1px;
+    margin-left: 20px;
+}
+
+.structure-analysis-calculator-calculator-left div.px1dottedborder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    border: 1px dotted white;
+}
+
+.structure-analysis-calculator-calculator-right-show-hidden-btn {
+    background: white;
+    border-radius: 8px;
+    padding: 2px 17px;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 16px;
+    color: #7933a4;
+    font-weight: 600;
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+}
+
+.hidden {
+    overflow: hidden;
+    position: absolute;
+    background-image: linear-gradient(to right, #3a2164, #181a46);
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 21px;
+    width: 35.2vw;
+    transform: translate(-50%, -50%);
+    transition: 0.8s ease-in-out;
+    left: 0%;
+    z-index: 0;
+    top: 0%;
+    height: 21vw !important;
+    opacity: 0;
+}
+
+.structure-analysis-calculator-calculator-right.PadeyeCalculator .show {
+    transform: translate(0%, 0%);
+}
+
+.hidden.Sectionmodules {
+    transform: translate(-50%, -50%);
+    transition: 0.8s ease-in-out;
+    left: 50%;
+    z-index: 0;
+    top: 50%;
+}
+
+.LowerPowerminus2px.sectionmodulesSolutionLowerPower,
+.LowerPower.sectionmodulesSolutionLowerPower {
+    font-size: 1vw !important;
+    position: relative;
+    top: 4px;
+}
+
+.LowerPowerminus2px.torsinalConstantFormula {
+    top: 4px;
+    position: relative;
+}
+
+.show {
+    position: absolute;
+    background-image: linear-gradient(to right, #3a2164, #181a46);
+    top: 115%;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 21px;
+    width: 38vw;
+    left: 50%;
+    transition: 0.8s ease-in-out;
+    overflow: auto;
+    transform: translate(-50%, 0%);
+}
+
+.structure-analysis-calculator-calculator-right input.calculator-input {
+    background: transparent;
+    color: #000000;
+    outline: none;
+    margin: 0;
+    width: 80%;
+    transform: translate(11px, 0px);
+    text-align: center;
+    border: none;
+}
+
+.Calculator-Side-A {
+    background: white;
+    color: #000;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    padding: 7px 10px;
+    width: 45%;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.input-and-select-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.structure-analysis-calculator-calculator-right.bemProperties input.calculator-input {
+    width: 60%;
+    transform: translate(8px, 0px);
+}
+
+/* third section */
+.calculator-info-blue-section-main-topic.formula-text {
+    margin: 5px 0;
+    display: flex;
+    font-size: 1.5vw !important;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    font-weight: 400;
+    font-family: KaTeX_Math !important;
+    font-style: italic;
+}
+
+span.equalesto {
+    padding: 0 12px;
+}
+
+.structure-analysis-calculator-formula-dropdown-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+
+.SignificanceAndInputsAreaCalculator .gbp-h3 {
+    font-size: 1.4vw !important;
+    letter-spacing: normal;
+    font-weight: normal;
+    padding: 0.4vw 0
+}
+
+h3.calculator-info-blue-section-main-topic.margin-bottom-10px.gbp-h3.bold {
+    font-weight: 600;
+    font-size: 1.8vw !important;
+}
+
+.gbp-h3.structure-analysis-calculator-information-h3 {
+    font-size: 25px;
+    letter-spacing: normal;
+    display: flex;
+    flex-direction: column;
+}
+
+.mae-cad-info-second-section-main-grid-explore-more-grid div h3.gbp-h3.structure-analysis-calculator-information-h3 {
+    font-size: 3.8vw !important;
+}
+
+.mae-cad-info-second-section-main-grid-explore-more-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr !important;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    background: linear-gradient(45deg, black, #000000);
+}
+
+.calculator-Area {
+    padding-left: 5vw;
+    height: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mae-calculator-info {
+    height: 0;
+    transition: 0.7s;
+    opacity: 0;
+    overflow: hidden;
+    background: #0000;
+    width: 75%;
+    background: #ffffff !important;
+    box-shadow: 6px 5px 13px #a3a1a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mae-calculator-info.active {
+    padding: 80px 30px;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 90%;
+    opacity: 1;
+    margin: auto;
+}
+
+.mae-cad-info-second-section-main-grid-explore-more-grid div h3.gbp-h3.structure-analysis-calculator-information-h3.defination {
+    font-size: 1.6vw !important;
+    color: #fff;
+}
+
+.gbp-h3.structure-analysis-calculator-information-h3-button-Discovermore {
+    color: #000 !important;
+    border: 1px solid;
+    border-radius: 50px;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 8px 15px;
+    font-size: 17px;
+    letter-spacing: normal;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.calculator-info-blue-section-main-topic {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Kanit', sans-serif !important;
+    font-size: 1.5vw;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.mae-cad-info-second-section-main-grid-explore-more-grid div h3.gbp-h3.structure-analysis-calculator-information-h3 {
+    line-height: normal;
+    padding: 0vw 0;
+    color: #fff;
+}
+
+.areaimg {
+    width: auto;
+}
+
+span.power {
+    font-size: 1vw;
+    position: relative;
+    top: -8px;
+}
+
+span.minus {
+    padding: 0 5px;
+}
+
+span.LowerPower {
+    font-size: 1vw !important;
+    transform: translate(-1px, 5px) !important;
+}
+
+span.LowerPowerminus2px {
+    font-size: 1vw !important;
+    transform: translate(-2px, 5px) !important;
+}
+
+.padding-margin-bottom-0 {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.padding-margin-top-0 {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+.structure-analysis-calculator-formula-dropdown-section-img.areaimg {
+    width: 450px;
+    height: 250px;
+    transform: translate(0px, 0px);
+    border-radius: 20px;
+    display: block;
+    margin: 10px 80px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+/* #5f5f5f94 */
+td .structure-analysis-calculator-formula-dropdown-section-img {
+    width: 70%;
+    height: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+
+/*  */
+.color-white {
+    color: white;
+}
+
+.text-aligh-center {
+    text-align: center;
+}
+
+.text-aligh-center.color-white {
+    font-size: 3vw;
+    font-weight: 400;
+}
+
+.calculator-info-blue-section-main-topic.margin-bottom-10px.formula {
+    font-size: 1vw !important;
+    letter-spacing: 1px;
+}
+
+.font-size2and4vwimportant {
+    font-size: 2.4vw !important;
+}
+
+.margin-left-20px {
+    margin-left: 20px;
+}
+
+h3.claculator-conversation-title-heading {
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.height110 {
+    height: 110vh;
+    transition: 1s;
+}
+
+.height110.height0 {
+    height: 0vh;
+    transition: 1s;
+}

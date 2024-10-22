@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+}
+
+.cae .container {
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    padding: 14px;
+    width: -moz-fit-content;
+    width: 410px;
+    display: flex;
+    float: right;
+    border-radius: 30px;
+    border: 4px solid #a0a0a0;
+    position: sticky;
+    box-shadow: 5px 3px 15px #c3c3c3;
+    align-items: center;
+}
+
+.cae .sub-container,
+.myDiv {
+    background-color: white;
+    /* border: 1px solid black; */
+    padding: 20px;
+    width: 375px;
+}
+
+.cae .top {
+    align-self: flex-start;
+}
+
+.cae .center {
+    align-self: center;
+}
+
+.cae .bottom {
+    align-self: flex-end;
+}
+
+.cae img {
+    width: 37.8vh;
+    height: 50.5vh;
+    border-radius: 20px;
+}
+
+.cae div.sub-container.top,
+div.sub-container.bottom,
+.myDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cae select {
+    border: none;
+}
+
+.cae .two .sub-container.top,
+.cae .two .sub-container.bottom {
+    height: 20px;
+    align-items: center;
+}
+
+.cae div.hide {
+    display: none !important;
+}
+
+.cae .myDiv.hidden {
+    display: none;
+}
+
+section.cae {
+    background: linear-gradient(to right, #000000de, #201d45, #000000de);
+    padding: 20px 40px;
+    height: 200vh;
+    width: 100pc;
+    display: block;
+}
+
+.cae .container2 {
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    width: -moz-fit-content;
+    width: fit-content;
+    float: left;
+    border-radius: 50px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cae.mae-cad-info-section {
+    background: none;
+    display: grid;
+    grid-template-columns: 1.37fr 3fr 2fr !important;
+    padding: 0;
+    height: fit-content;
+}
+
+.cae.mae-cad-info-section.fullscreen {
+    background: none;
+    display: grid;
+    grid-template-columns: 0fr 3fr 2fr !important;
+    padding: 0;
+    height: fit-content;
+}
+
+.sub-container.top {
+    display: flex;
+    justify-content: right !important;
+}
+.cae.mae-cad-info-section .relative.overflow-hidden{
+    width: 100%;
+}
+.cae.mae-cad-info-section .relative.overflow-hidden .relative.flex.items-start.justify-center.flex-col.flex-1.pb-16.pt-5.gap-3.px-5{
+    padding: 0;
+    padding-left: 0!important;
+    padding-top: 0!important;
+    /* width: 50%; */
+    padding-right: 0!important;
+}
+.SheetMetal.mae-cad-info-views-explore-more-section-blue-text.mae-cad-info-blue-section-main.active.calulator {
+    width: 90%;
+    margin: 45px;
+    background: #ededed;
+}

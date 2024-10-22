@@ -1,0 +1,136 @@
+.htmloverview li{
+    display: flex;
+    padding: 0 7%;
+    font-size: 19px;
+}
+.htmloverview h3 {
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 20px;
+}
+.htmloverview h1,
+.htmlBasicHTMLTags h1{
+    font-size: 40px;
+    font-weight: 620;
+    margin: 10px 0;
+}
+.htmlBasicHTMLTags h2{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px 0px;
+}
+.htmlBasicHTMLTags{
+    padding: 0 7%;
+}
+.htmlBasicHTMLTags h3{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 15px;
+}
+.htmlBasicHTMLTags li {
+    font-size: 19px;
+    padding: 0 35px;
+}
+.htmlBasicHTMLTags h5{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 30px;
+}
+.htmlattributes h1{
+    font-size: 30px;
+    font-weight: 620;
+    margin: 10px 0;
+}
+.htmlattributes h3{
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 20px;
+}
+.htmlattributes h5{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 30px;
+}
+.htmlDocumentStructure h1{
+    font-size: 30px;
+    font-weight: 620;
+    margin: 10px 0;
+}
+.htmlDocumentStructure h3{
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 20px;
+}
+.htmlDocumentStructure h5{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 30px;
+}
+.compiler-btn{
+    padding: 5px;
+    width: 67px;
+    border-radius: 50px;
+    font-size: 14px;
+    margin: 15px 30px;
+}
+.htmlbitright{
+    margin: 0px 20px!important;
+}
+.htmlIntermediateHTML h1{
+    font-size: 30px;
+    font-weight: 620;
+    margin: 0 10px;
+}
+.htmlIntermediateHTML h3{
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 20px;
+}
+.htmlIntermediateHTML h5{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 30px;
+}
+.aligh-center{
+    text-align: center!important;
+}
+.htmlsection{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.margin-zero{
+    margin: 0!important;
+}
+nav.htmlnav{
+    position: fixed;
+}
+.htmlattributes,
+.htmlBasicHTMLTags,
+.htmlDocumentStructure,
+.htmloverview,
+.htmlIntermediateHTML{
+    padding: 0 7%;
+}
+.burgur.htmlburgurleft {
+    left: 0%!important;
+}
+li.list .active{
+    background: linear-gradient(to right, #535CF1, #A147E4);
+    margin: 5px 10px;
+    color: #fff!important; 
+}
+ul.topices li.list:hover{
+    background: linear-gradient(to right, #535CF1, #A147E4);
+    margin: 0px 5px;
+    color: #fff!important;
+}

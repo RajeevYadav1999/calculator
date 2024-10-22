@@ -1,0 +1,9 @@
+div.compiler ul{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.compiler li {
+    padding: 10px 40px;
+}

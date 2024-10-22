@@ -1,0 +1,29 @@
+.slide:hover {
+    transform: scale(0.95);
+}
+.slide {
+    transition: 0.5s;
+    transform: scale(0.8);
+}
+.slide:hover h1{
+    color: #fff;
+    background: linear-gradient(to right, #535CF1, #A147E4);
+}
+.slick-slide img {
+    display: block;
+    width: 100%;
+}
+.slide h1 {
+    margin: 0;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 2vw;
+}
+@media screen (max-width: 555px) {
+    .slide h1{
+        font-size: 5vw!important;
+    }
+}
+.height{
+    height: 90vh;
+}

@@ -1,0 +1,1291 @@
+@media (min-width: 1450px) {
+    .calculator-defination-div.SectionModules {
+        height: 55vh !important;
+    }
+
+    .calculator-defination-section-div.SectionModules.expanded {
+        height: 40vh !important;
+    }
+
+    .calculator-defination-div.AboutUsVision {
+        height: 58vh !important
+    }
+
+    .calculator-defination-section-div.AboutUsVision.expanded {
+        height: 25vh !important
+    }
+
+    .calculator-defination-section.first-important.heading,
+    .calculator-defination-section.third-important.heading {
+        font-size: 2vw !important;
+        padding: 0;
+    }
+
+    .first-important,
+    .second-important,
+    .third-important {
+        font-size: 1.2vw;
+        font-weight: 500;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1450px) {
+    .height110 {
+        height: 50vw;
+        transition: 1s;
+    }
+}
+
+@media (min-width: 1280px) {
+    .PadEye .calculator-first-section-imgdiv {
+        height: 80vh;
+    }
+
+    .Aboutus-header-section,
+    .Aboutus-header-section-backgroundimg {
+        height: 85vh;
+    }
+
+    .calculator-defination-div.AboutUs {
+        height: 38vh !important;
+    }
+
+    .calculator-defination-section-div.AboutUs.expanded {
+        height: 25vh !important;
+    }
+
+    .calculator-defination-div.AboutUs.OurTeam {
+        height: 50vh !important;
+    }
+
+    .calculator-defination-section-div.AboutUs.OurTeam.expanded {
+        height: 38vh !important;
+    }
+
+    .calculator-defination-div.AboutUsVision {
+        height: 55vh !important
+    }
+
+    .calculator-defination-section-div.AboutUsVision.expanded {
+        height: 25vh !important
+    }
+
+    .padeye.height110 {
+        height: 300vh;
+    }
+
+    .padeye.height110.height0 {
+        height: 8vh !important;
+    }
+    
+}
+
+
+@media (min-width: 1450px) {
+
+    .padeye.height110 {
+        height: 310vh;
+    }
+
+    .padeye.height110.height0 {
+        height: 8vh !important;
+    }
+}
+
+@media (min-width: 1550px) {
+
+    .padeye.height110 {
+        height: 330vh;
+    }
+
+    .padeye.height110.height0 {
+        height: 8vh !important;
+    }
+}
+@media (max-width: 1280px) {
+    .show.ScrollTransactionOne.ScrollTransactionTwo.ScrollTransactionThree {
+        top: 445% !important;
+    }
+    .padeye.height110 {
+        height: 174vw;
+    }
+}
+@media (max-width: 1200px) {
+    .show.ScrollTransactionOne.ScrollTransactionTwo.ScrollTransactionThree {
+        top: 430% !important;
+    }
+}
+@media (max-width: 1120px) {
+
+    .metricBtn,
+    .ImperialBtn {
+        padding: 0.5vw 1.5vw !important;
+        font-size: 1.8vw !important;
+        border-radius: 12px !important;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .calculator-info-blue-section-main-topic.MainHeadingOfDropdown {
+        font-size: 3.5vw !Important;
+    }
+
+    .calculator-info-blue-section-main-topic.TopicOfDropdown {
+        font-size: 2.5vw !Important;
+    }
+
+    .calculator-info-blue-section-main-topic.DefinatinOfDropDown {
+        font-size: 1.5vw !Important;
+    }
+
+    .mae-calculator-info.PadeyeDropDown.active {
+        padding: 80px 1vw;
+        height: -moz-fit-content;
+        height: fit-content;
+        width: 90%;
+        opacity: 1;
+        margin: auto;
+    }
+
+    .calculator-info-blue-section-main-topic.main-heading {
+        font-size: 5vw !important;
+    }
+
+    .calculator-info-blue-section-main-topic.heading {
+        font-size: 3vw !important;
+    }
+
+    .structure-analysis-calculator-calculator {
+        display: grid;
+        width: 90%;
+        grid-template-columns: 1fr;
+        background-image: linear-gradient(to right, #181a46, #803cb2);
+        transform: translate(0, 6%);
+        margin: auto;
+        border: 5px solid black;
+        border-radius: 30px;
+    }
+
+    .text-aligh-center.color-white {
+        font-size: 4vw !important;
+        margin: auto;
+    }
+
+    .calculator-info-blue-section-main-topic.formula-text {
+        font-size: 1.8vw !important;
+    }
+
+    .show .Calculator-Side-A,
+    .hidden .Calculator-Side-A {
+        width: 60%;
+        border: 3px solid #fff;
+        padding: 10px;
+        position: relative;
+        border-radius: 12px;
+    }
+
+    .areaimg {
+        width: auto !important;
+    }
+
+
+    .calculator-info-blue-section-main-topic {
+        font-size: 2vw !important;
+    }
+
+    span.power {
+        font-size: 1.2vw;
+    }
+
+    .mae-cad-info-second-section-main-grid-explore-more-grid {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        grid-template-columns: 1fr !important;
+        padding: 10vh 0;
+    }
+
+    .structure-analysis-calculator-formula-dropdown-section {
+        width: 100%;
+    }
+
+    .structure-analysis-calculator-formula-dropdown-section-img.areaimg {
+        width: 450px;
+        height: 250px;
+        margin: 10px auto;
+    }
+
+    .gbp-h3.structure-analysis-calculator-information-h3-button-Discovermore {
+        padding: 10px 15px;
+
+    }
+
+    .mae-calculator-info.active {
+        padding: 80px 1vw;
+        height: -moz-fit-content;
+        height: fit-content;
+        width: 100%;
+        opacity: 1;
+        margin: auto;
+    }
+
+    .structure-analysis-calculator-calculator-left button {
+        font-size: 1.5vw;
+    }
+
+    .structure-analysis-calculator-calculator-right .claculator-conversation-title {
+        font-size: 2vw;
+    }
+
+    .height110 {
+        height: 65vw;
+        transition: 1s;
+    }
+
+    h3.color-white.bold-heading-solution {
+        font-size: 2.5vw !important;
+    }
+
+    .inertiaSolidCircleimg {
+        width: 15vw !important;
+        height: 15vw !important;
+    }
+
+    .show.ScrollTransactionOne {
+        top: 115% !important;
+    }
+
+    .show.ScrollTransactionOne.ScrollTransactionTwo {
+        top: 290% !important;
+    }
+
+    .show.secondrightPadeyeDropDown.ScrollTransactionOne.ScrollTransactionTwo {
+        top: 202% !important;
+    }
+
+    .show.ScrollTransactionOne.ScrollTransactionTwo.ScrollTransactionThree {
+        top: 465% !important;
+    }
+
+    .show.ScrollTransactionOne.rightBeamDeflactionDropDown {
+        top: 115% !important;
+        left: 50% !important;
+        transform: translate(-50%, 0) !important;
+    }
+
+    .show.ScrollTransactionOne.rightBeamDeflactionDropDown.rightsideBeamDeflactionDropDown {
+        top: 185% !important;
+    }
+
+    .ScrollTransactionTwoBeamDeflactionDropDown.show.ScrollTransactionOne.ScrollTransactionTwo {
+        top: 255% !important;
+        left: 50% !important;
+        transform: translate(-50%, 0) !important;
+    }
+
+    .ScrollTransactionTwoBeamDeflactionDropDown.show.ScrollTransactionOne.rightsideTwoBeamDeflactionDropDown {
+        top: 325% !important;
+    }
+
+    .hidden.rightBeamDeflactionDropDown {
+        top: -20% !important;
+    }
+
+    .hidden.rightsideBeamDeflactionDropDown {
+        top: -20% !important;
+        left: 0% !important;
+    }
+
+    .hidden.ScrollTransactionTwoBeamDeflactionDropDown {
+        top: -20% !important;
+    }
+
+    .hidden.rightsideTwoBeamDeflactionDropDown {
+        top: -20% !important;
+        left: 0% !important;
+    }
+
+    .Beamdeflaction.height110 {
+        height: 285vh !important;
+        top: -30% !important;
+    }
+
+    .Beamdeflaction.height110.height0 {
+        height: 0vh !important;
+        top: -30%, !important;
+    }
+
+    .hidden {
+        height: 22.5vw;
+        top: 62%;
+        width: 88%;
+        overflow: hidden;
+        OPACITY: 0;
+    }
+
+    .show {
+        height: 45.5vw;
+        top: 105%;
+        width: 90% !important;
+        border-radius: 15px;
+    }
+
+    /* padeye calculator */
+    .rightPadeyeDropDown.show,
+    .secondrightPadeyeDropDown.show,
+    .ScrollTransactionTwoPadeyeDropDown.show,
+    .ScrollTransactionTworightPadeyeDropDown.show,
+    .ScrollTransactionThirdPadeyeDropDown.show,
+    .ScrollTransactionThirdrightPadeyeDropDown.show {
+        left: 50% !important;
+        transform: translate(-50%, 0%);
+        transition: 0.8s ease-in-out;
+        overflow: auto;
+    }
+
+    .rightPadeyeDropDown.hidden,
+    .secondrightPadeyeDropDown.hidden,
+    .ScrollTransactionTwoPadeyeDropDown.hidden,
+    .ScrollTransactionTworightPadeyeDropDown.hidden,
+    .ScrollTransactionThirdPadeyeDropDown.hidden,
+    .ScrollTransactionThirdrightPadeyeDropDown.hidden {
+        left: 50% !important;
+        transform: translate(-50%, 0%);
+        top: 0% !important;
+        opacity: 0;
+    }
+    .structure-analysis-calculator-calculator-right.PadeyeCalculator .show {
+        transform: translate(-50%, 0%);
+    }
+    .calculator-coversation-title-span{
+        font-size: 1.7vw!important;
+        position: relative!important;
+        top: 3px!important;
+    }
+    .rightPadeyeDropDown.AllowableStressedAndDesignLoads.show.ScrollTransactionOne {
+        top: 105% ! Important;
+        left: 50% !important;
+        transform: translate(-50%, 0%);
+
+    }
+
+    .rightPadeyeDropDown.GeometryCheck.show.ScrollTransactionOne {
+        top: 145% ! Important;
+        left: 50% !important;
+        transform: translate(-50%, 0%);
+        height: 45vh !important;
+    }
+
+    .STRESSCHECKSATPINHOLE.secondrightPadeyeDropDown.show.ScrollTransactionOne {
+        top: 176% ! Important;
+        left: 50% !important;
+        transform: translate(-50%, 0%);
+        height: 50vh !important;
+    }
+
+    .WELDCHECKATCHEEKPLATEWELD.ScrollTransactionTwoPadeyeDropDown.show.ScrollTransactionOne.ScrollTransactionTwo {
+        top: 210% ! Important;
+        left: 50% !important;
+        transform: translate(-50%, 0%);
+        /* /* display: none;  */
+    }
+
+    .ScrollTransactionThirdPadeyeDropDown.WELDSTRESSCHECKOFBASEWELD.show.ScrollTransactionOne.ScrollTransactionTwo.ScrollTransactionThree {
+        top: 251% ! Important;
+        left: 50% !important;
+        transform: translate(-50%, 0%);
+    }
+
+    .STRESSCHECKSATBASEPLATE.ScrollTransactionTworightPadeyeDropDown.show.ScrollTransactionOne.ScrollTransactionTwo {
+        top: 292% ! Important;
+        left: 50% !important;
+        transform: translate(-50%, 0%);
+    }
+
+    .FINALLCHECKS.ScrollTransactionThirdrightPadeyeDropDown.show.ScrollTransactionOne.ScrollTransactionTwo.ScrollTransactionThree {
+        top: 332% ! Important;
+        left: 50% !important;
+        transform: translate(-50%, 0%);
+    }
+
+    .padeye.height110 {
+        height: 520vh !important;
+    }
+
+    .padeye.height110.height0 {
+        height: 8vh !important;
+    }
+}
+
+@media (max-width: 1100px) {
+    .calculator-defination-div {
+        height: 40vh !important;
+    }
+
+    .calculator-defination-section-div.expanded {
+        height: 30vh !important;
+    }
+
+    .calculator-defination-div.BeamDeflection {
+        height: 45vh !important;
+    }
+
+    .calculator-defination-section-div.BeamDeflection.expanded {
+        height: 42vh !important;
+    }
+
+    .calculator-defination-div.SectionModules {
+        height: 50vh !important;
+    }
+
+    .calculator-defination-section-div.SectionModules.expanded {
+        height: 35vh !important;
+    }
+
+    .calculator-defination-div.AboutUs {
+        height: 35vh !important;
+    }
+
+    .calculator-defination-section-div.AboutUs.expanded {
+        height: 30vh !important;
+    }
+
+    .Aboutus-Meetourteam-card-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 80%;
+        margin: 0px auto;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+    }
+
+    .calculator-defination-div.Member1 {
+        padding: 25px 15px;
+        width: 75%;
+        height: 54vh !important;
+        border-radius: 20px;
+        margin: 15px 0;
+    }
+
+    .calculator-defination-section-div.Member1.expanded {
+        height: 60vh !important;
+    }
+
+    .Aboutus-Meetourteam-card-text-information {
+        font-size: 1.5vw;
+    }
+
+    .Aboutus-Meetourteam-card-text-name {
+        font-size: 2.5vw;
+    }
+
+    .calculator-defination-div.AboutUs.OurTeam {
+        height: 35vh !important;
+    }
+
+    .calculator-defination-section-div.AboutUs.OurTeam.expanded {
+        height: 28vh !important;
+    }
+
+    .calculator-defination-div.AboutUsVision {
+        height: 35vh !important
+    }
+
+    .calculator-defination-section-div.AboutUsVision.expanded {
+        height: 15vh !important
+    }
+
+    .padeye.height110 {
+        height: 500vh !important;
+    }
+
+    .padeye.height110.height0 {
+        height: 8vh !important;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .calculator-defination-div {
+        height: 30vh !important;
+    }
+
+    .calculator-defination-section-div.expanded {
+        height: 22vh !important;
+    }
+
+    .calculator-defination-div.BeamDeflection {
+        height: 40vh !important;
+    }
+
+    .calculator-defination-section-div.BeamDeflection.expanded {
+        height: 37vh !important;
+    }
+
+    .Beam-properties-calculator-heading {
+        font-size: 4vw;
+    }
+
+    .calculator-defination-div.AboutUsVision {
+        height: 28vh !important;
+    }
+
+    .calculator-defination-section-div.AboutUsVision.expanded {
+        height: 12vh !important;
+    }
+
+    .calculator-defination-section.first-important.heading,
+    .calculator-defination-section.third-important.heading {
+        font-size: 2.5vw !important;
+        padding: 0;
+    }
+
+    .first-important,
+    .second-important,
+    .third-important {
+        font-size: 1.8vw !important;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .padeye.height110 {
+        height: 480vh !important;
+    }
+
+    .padeye.height110.height0 {
+        height: 8vh !important;
+    }
+}
+
+@media (max-width: 950px) {
+    .calculator-info-blue-section-main-topic.MainHeadingOfDropdown {
+        font-size: 4.5vw !Important;
+    }
+
+    .calculator-info-blue-section-main-topic.TopicOfDropdown {
+        font-size: 3vw !Important;
+    }
+
+    .calculator-info-blue-section-main-topic.DefinatinOfDropDown {
+        font-size: 2vw !Important;
+    }
+
+    .Aboutus-Meetourteam-card-text-name {
+        font-size: 3vw;
+    }
+
+    .mae-calculator-info.PadeyeDropDown.active {
+        width: 96%;
+    }
+
+    .Aboutus-Meetourteam-card-text-information {
+        font-size: 2vw;
+    }
+
+    .calculator-defination-div.Member1 {
+        padding: 25px 15px;
+        width: 60%;
+        height: 54vh !important;
+        border-radius: 20px;
+        margin: 15px 0;
+    }
+
+    .Aboutus-Meetourteam-card-main {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin: 0px auto;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+    }
+
+    .Aboutus-Meetourteam-card-text-name {
+        transform: translate(7vw, 0px) !important;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        float: right;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .ME-navbar-links {
+        top: 4vw;
+    }
+
+    .calculator-first-section-textdiv {
+        top: 12vw !important;
+    }
+
+    .calculator-defination-div.SectionModules {
+        height: 40vh !important;
+    }
+
+    .calculator-defination-section-div.SectionModules.expanded {
+        height: 30vh !important;
+    }
+
+    h3.color-white.bold-heading-solution {
+        font-size: 2vw !important;
+    }
+
+    .padeye.height110 {
+        height: 465vh !important;
+    }
+
+    .padeye.height110.height0 {
+        height: 8vh !important;
+    }
+
+    .LowerPowerminus2px.sectionmodulesSolutionLowerPower,
+    .LowerPower.sectionmodulesSolutionLowerPower {
+        font-size: 1.8vw !important;
+        position: relative;
+        top: 4px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    h3.color-white.bold-heading-solution {
+        font-size: 2.8vw !important;
+    }
+
+    .calculator-info-blue-section-main-topic.InnerDropDownHeading {
+        font-size: 4vw !important;
+        padding: 10px 0px !important;
+    }
+
+    dot {
+        padding: 3px;
+        border: 1px solid #000;
+        background: #000;
+        width: 5px;
+        height: 5px;
+        border-radius: 50px;
+    }
+
+    .DropDownMainDiv {
+        padding: 3% 4% !important;
+        width: 85% !important;
+    }
+
+    .padeye.height110 {
+        height: 455vh !important;
+    }
+
+    .padeye.height110.height0 {
+        height: 8vh !important;
+    }
+
+    .metricBtn,
+    .ImperialBtn {
+        padding: 0.5vw 1.5vw !important;
+        font-size: 2vw !important;
+        border-radius: 9px !important;
+    }
+}
+
+@media (max-width: 800px) {
+    .ScrollTransactionTwoBeamDeflactionDropDown.rightsideTwoBeamDeflactionDropDown.top405.show.ScrollTransactionOne.ScrollTransactionTwo.undefined {
+        top: 325% !important;
+    }
+    .calculator-defination-div.AboutUsVision {
+        height: 28vh !important;
+    }
+
+    .calculator-defination-section-div.AboutUsVision.expanded {
+        height: 13vh !important;
+    }
+
+    .Aboutus-information-information {
+        font-size: 1.8vw;
+    }
+
+    .Aboutus-Meetourteam-defination {
+        font-size: 1.8vw;
+    }
+
+    .calculator-defination-div.AboutUsVision {
+        height: 50vh;
+        width: 65%;
+    }
+
+    .capabilities-text h2,
+    .vision-text h2.AboutUsVision-h2,
+    .mission-text h2 {
+        font-size: 1.9vw;
+    }
+
+    .structure-analysis-calculator-calculator-right .claculator-conversation-title {
+        font-size: 3vw;
+    }
+
+    .calculator-info-blue-section-main-topic.formula-text {
+        margin: 0 8px;
+    }
+
+    .show.ScrollTransactionOne.rightBeamDeflactionDropDown {
+        top: 105% !important;
+    }
+
+    .show.ScrollTransactionOne.rightBeamDeflactionDropDown.rightsideBeamDeflactionDropDown {
+        top: 160% !important;
+        left: 50% !important;
+    }
+
+    .ScrollTransactionTwoBeamDeflactionDropDown.show.ScrollTransactionOne.ScrollTransactionTwo {
+        top: 215% !important;
+    }
+
+    .ScrollTransactionTwoBeamDeflactionDropDown.show.ScrollTransactionOne.rightsideTwoBeamDeflactionDropDown {
+        top: 270% !important;
+        left: 50% !important;
+    }
+
+    .Beamdeflaction.height110 {
+        height: 210vh !important;
+    }
+
+    .Beamdeflaction.height110.height0 {
+        height: 0vh !important;
+    }
+
+    .padeye.height110 {
+        height: 430vh !important;
+    }
+
+    .padeye.height110.height0 {
+        height: 8vh !important;
+    }
+
+    .structure-analysis-calculator-calculator-left button {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 750px) {
+    .hidden {
+        height: 12.5vw;
+        top: 52%;
+        width: 88%;
+        overflow: hidden;
+        OPACITY: 0;
+    }
+
+    .structure-analysis-calculator-formula-dropdown-section-img {
+        width: 45vw;
+        height: auto;
+    }
+
+    .calculator-info-blue-section-main-topic {
+        font-size: 4vw !important;
+    }
+
+    .structure-analysis-calculator-formula-dropdown-section-formula-data .calculator-info-blue-section-main-topic {
+        font-size: 2.5vw !important;
+    }
+
+    .calculator-info-blue-section-main-topic.formula-text {
+        font-size: 2.5vw !important;
+    }
+
+    span.power {
+        font-size: 2.4vw;
+    }
+
+    span.LowerPower {
+        font-size: 1.2vw !important;
+        transform: translate(-1px, 5px) !important;
+    }
+
+    span.LowerPowerminus2px {
+        font-size: 1.5vw !important;
+        transform: translate(0px, 2px) !important;
+    }
+
+    span.power {
+        font-size: 1.8vw;
+    }
+
+    .mae-cad-info-second-section-main-grid-explore-more-grid div h3.gbp-h3.structure-analysis-calculator-information-h3.defination {
+        font-size: 4vw !important;
+    }
+
+    .mae-cad-info-second-section-main-grid-explore-more-grid div h3.gbp-h3.structure-analysis-calculator-information-h3 {
+        font-size: 8vw !important;
+    }
+
+    .structure-analysis-calculator-formula-dropdown-section-img.areaimg {
+        height: auto !important;
+        width: 50vw !important;
+        transform: translate(0px, 0px);
+        border-radius: 10px;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .gbp-h3.structure-analysis-calculator-information-h3-button-Discovermore {
+        padding: 10px 15px;
+    }
+
+    .structure-analysis-calculator-formula-dropdown-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .calculator-defination-section.first-important.heading,
+    .calculator-defination-section.third-important.heading {
+        font-size: 3.5vw !important;
+        padding: 0;
+    }
+
+    .first-important,
+    .second-important,
+    .third-important {
+        font-size: 2vw !important;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    h3.color-white.bold-heading-solution {
+        font-size: 3vw !important;
+    }
+
+    .calculator-defination-div.SectionModules {
+        height: 40vh !important;
+    }
+
+    .calculator-defination-section-div.SectionModules.expanded {
+        height: 30vh !important;
+    }
+
+    .mae-cad-info-second-section-main-grid-explore-more-grid {
+        height: 75vh;
+    }
+
+    .height110 {
+        height: 68vw;
+        transition: 1s;
+    }
+
+    /* * padeye calculator */
+    .rightPadeyeDropDown.AllowableStressedAndDesignLoads.show.ScrollTransactionOne {
+        width: 90% ! important;
+        top: 102% ! important;
+    }
+
+    .rightPadeyeDropDown.GeometryCheck.show.ScrollTransactionOne {
+        left: 50% !important;
+        width: 90% ! important;
+        top: 135% !important;
+        height: 25vw !important;
+    }
+
+    .STRESSCHECKSATPINHOLE.secondrightPadeyeDropDown.show.ScrollTransactionOne {
+        height: 35vw !important;
+        left: 50% !important;
+        top: 156% !important;
+        width: 90% !important;
+    }
+
+    .WELDCHECKATCHEEKPLATEWELD.ScrollTransactionTwoPadeyeDropDown.show.ScrollTransactionOne.ScrollTransactionTwo {
+        height: 45vw !important;
+        left: 50% !important;
+        width: 90% !important;
+        top: 183% !important;
+        z-index: 1;
+    }
+
+    .ScrollTransactionThirdPadeyeDropDown.WELDSTRESSCHECKOFBASEWELD.show.ScrollTransactionOne.ScrollTransactionTwo.ScrollTransactionThree {
+        height: 45vw !important;
+        left: 50% !important;
+        width: 90% !important;
+        top: 216% !important;
+        z-index: 1;
+    }
+
+    .STRESSCHECKSATBASEPLATE.ScrollTransactionTworightPadeyeDropDown.show.ScrollTransactionOne.ScrollTransactionTwo {
+        height: 45vw !important;
+        left: 50% !important;
+        width: 90% !important;
+        top: 249% !important;
+        z-index: 0;
+    }
+
+    .FINALLCHECKS.ScrollTransactionThirdrightPadeyeDropDown.show.ScrollTransactionOne.ScrollTransactionTwo.ScrollTransactionThree {
+        height: 45vw !important;
+        left: 50% !important;
+        width: 90% !important;
+        top: 282% !important;
+    }
+
+
+
+    .padeye.height110 {
+        height: 340vh !important;
+    }
+
+    .padeye.height110.height0 {
+        height: 8vh !important;
+    }
+}
+
+@media (max-width: 710px) {
+    .ME-navbar-links {
+        top: 5vw;
+    }
+
+    .calculator-first-section-imgdiv {
+        height: 50vw !important;
+    }
+
+    .calculator-first-section-imgdiv-img {
+        height: 100% !important;
+    }
+
+    .calculator-first-section-textdiv {
+        top: 19vw !important;
+    }
+
+    .calculator-defination-div.SectionModules {
+        height: 40vh !important;
+    }
+
+    .calculator-defination-section-div.SectionModules.expanded {
+        height: 33vh !important;
+    }
+
+    .LowerPowerminus2px.sectionmodulesSolutionLowerPower,
+    .LowerPower.sectionmodulesSolutionLowerPower {
+        font-size: 2vw !important;
+        position: relative;
+        top: 4px;
+    }
+}
+
+@media (max-width: 700px) {
+    .ScrollTransactionTwoBeamDeflactionDropDown.rightsideTwoBeamDeflactionDropDown.top405.show.ScrollTransactionOne.ScrollTransactionTwo.undefined {
+        top: 325% !important;
+    }
+    .padeye.height110 {
+        height: 430vh !important;
+    }
+    .calculator-defination-div {
+        height: 22vh !important;
+    }
+
+    .calculator-defination-section-div.expanded {
+        height: 15vh !important;
+    }
+
+    .calculator-defination-div.BeamDeflection {
+        height: 40vh !important;
+    }
+
+    .calculator-defination-section-div.BeamDeflection.expanded {
+        height: 37vh !important;
+    }
+
+    .Beam-properties-calculator-heading {
+        font-size: 4vw;
+    }
+
+    .calculator-defination-div.AboutUs {
+        height: 30vh !important;
+    }
+
+    .calculator-defination-section-div.AboutUs.expanded {
+        height: 25vh !important;
+    }
+
+    .calculator-defination-div.AboutUs.OurTeam {
+        height: 25vh !important;
+    }
+
+    .calculator-defination-section-div.AboutUs.OurTeam.expanded {
+        height: 18vh !important;
+    }
+
+    .calculator-defination-div.AboutUsVision {
+        height: 25vh !important;
+    }
+
+    .calculator-defination-section-div.AboutUsVision.expanded {
+        height: 12vh !important;
+    }
+
+    .show.ScrollTransactionOne.rightBeamDeflactionDropDown {
+        top: 105% !important;
+    }
+
+    .show.ScrollTransactionOne.rightBeamDeflactionDropDown.rightsideBeamDeflactionDropDown {
+        top: 155% !important;
+        left: 50% !important;
+    }
+
+    .ScrollTransactionTwoBeamDeflactionDropDown.show.ScrollTransactionOne.ScrollTransactionTwo {
+        top: 205% !important;
+    }
+
+    .ScrollTransactionTwoBeamDeflactionDropDown.show.ScrollTransactionOne.rightsideTwoBeamDeflactionDropDown {
+        top: 255% !important;
+        left: 50% !important;
+    }
+
+    .Beamdeflaction.height110.height0 {
+        height: 0vh !important;
+    }
+
+    .padeye.height110 {
+        height: 325vh !important;
+    }
+
+    .padeye.height110.height0 {
+        height: 8vh !important;
+    }
+
+    .metricBtn,
+    .ImperialBtn {
+        padding: 0.5vw 1.5vw !important;
+        font-size: 2.5vw !important;
+        border-radius: 8px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .calculator-defination-section-div.BeamDeflection.expanded {
+        height: 45vh !important;
+    }
+    .calculator-defination-div.BeamDeflection {
+        height: 45vh !important;
+    }
+    .ME-navbar-links {
+        top: 5.5vw;
+        width: 100%;
+        transform: translate(-50%, 0px);
+        left: 50%;
+        background: #00000080;
+        padding: 10px 0px;
+        border-radius: 0px;
+        padding-top: 30px;
+        z-index: 10;
+    }
+
+    .ME-navbar-links-li {
+        font-size: 2vw;
+    }
+
+    .calculator-defination-div.AboutUs {
+        height: 30vh !important;
+    }
+
+    .calculator-defination-section-div.AboutUs.expanded {
+        height: 25vh !important;
+    }
+
+    .Aboutus-Meetourteam-card-text-name {
+        transform: translate(35px, 0px) !important;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        float: right;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .calculator-defination-div.AboutUsVision {
+        height: 25vh !important;
+    }
+
+    .calculator-defination-section-div.AboutUsVision.expanded {
+        height: 12vh !important;
+    }
+
+    .calculator-defination-section.first-important.heading,
+    .calculator-defination-section.third-important.heading {
+        font-size: 5vw !important;
+        padding: 0;
+    }
+
+    .first-important,
+    .second-important,
+    .third-important {
+        font-size: 2.5vw !important;
+        font-weight: 500;
+        text-align: center;
+        margin: auto;
+        padding: 0 2vw;
+    }
+
+    .structure-analysis-calculator-calculator-left button {
+        font-size: 3vw;
+        width: 80%;
+    }
+
+    .structure-analysis-calculator-calculator-right .claculator-conversation-title {
+        font-size: 3.2vw;
+    }
+
+    .text-aligh-center.color-white {
+        font-size: 5vw !important;
+        margin: auto;
+    }
+
+    h3.color-white.bold-heading-solution {
+        font-size: 3vw !important;
+    }
+
+    .padeye.height110 {
+        height: 320vh !important;
+    }
+
+    .padeye.height110.height0 {
+        height: 8vh !important;
+    }
+
+    span.LowerPower {
+        font-size: 2.2vw !important;
+        transform: translate(-1px, 5px) !important;
+    }
+}
+
+@media (max-width: 550px) {
+    .padeye.height110 {
+        height: 310vh !important;
+    }
+
+    .padeye.height110.height0 {
+        height: 8vh !important;
+    }
+
+    .metricBtn,
+    .ImperialBtn {
+        padding: 0.8vw 1.8vw !important;
+        font-size: 3.2vw !important;
+        border-radius: 8px !important;
+    }
+}
+
+@media (max-width: 525px) {
+    .gbp-h3.structure-analysis-calculator-information-h3-button-Discovermore {
+        padding: 5px 15px;
+        font-size: 3vw;
+
+    }
+
+    .show {
+        top: 105%;
+        width: 90%;
+    }
+
+    .padeye.height110 {
+        height: 300vh !important;
+    }
+
+    .padeye.height110.height0 {
+        height: 8vh !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .ME-navbar-links {
+        top: 2vw;
+    }
+
+    .calculator-first-section-textdiv {
+        top: 16vw !important;
+    }
+
+    .ME-navbar img {
+        width: 6vw;
+    }
+
+    .ME-navbar {
+        padding: 1vw 0;
+    }
+
+    .structure-analysis-calculator-calculator-center.center img {
+        width: 90vw;
+    }
+
+    .ME-navbar-links-li {
+        font-size: 2vw;
+    }
+
+    .calculator-defination-div.SectionModules {
+        height: 35vh !important;
+    }
+
+    .calculator-defination-section-div.SectionModules.expanded {
+        height: 28vh !important;
+    }
+
+    .calculator-defination-div.AboutUs {
+        height: 28vh !important;
+    }
+
+    .calculator-defination-section-div.AboutUs.expanded {
+        height: 25vh !important;
+    }
+
+    .calculator-defination-div.AboutUsVision {
+        height: 18vh !important
+    }
+
+    .calculator-defination-section-div.AboutUsVision.expanded {
+        height: 8vh !important
+    }
+}
+
+@media (max-width:400px) {
+    .gbp-h3.structure-analysis-calculator-information-h3-button-Discovermore {
+        padding: 0px 15px;
+        font-size: 3vw;
+    }
+    .calculator-defination-div.BeamDeflection {
+        height: 35vh !important;
+    }
+    .calculator-defination-section-div.BeamDeflection.expanded {
+        height: 35vh !important;
+    }
+}
+
+@media (max-width: 350px) {
+    .ME-navbar-links {
+        top: 1vw;
+    }
+
+    .ME-navbar-links-li {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 375px) {
+    .structure-analysis-calculator-calculator-center.center img {
+        width: 90vw;
+    }
+
+    .areaimg {
+        width: 80vw !important;
+        margin: 10px 40px !important;
+        height: auto !important;
+    }
+
+    .structure-analysis-calculator-formula-dropdown-section {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 200px) {
+    .ME-navbar img {
+        width: 5vw;
+    }
+}

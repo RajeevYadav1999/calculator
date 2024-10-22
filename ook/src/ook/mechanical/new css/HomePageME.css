@@ -1,0 +1,303 @@
+/* secton one */
+.ME-Home-page-section-one .ME-background {
+    background: #000;
+    height: 92vh;
+    overflow: hidden;
+}
+
+.ME-Home-page-section-one .ME-background img {
+    width: 100%;
+    opacity: 0.7;
+}
+
+/* section two */
+
+.ME-section-second {
+    width: 95%;
+    margin: 1%;
+}
+
+.ME-section-second .text-1,
+.text-2,
+.text-3,
+.text-4,
+.text-5,
+.text-6 {
+    width: 36%;
+}
+
+.ME-section-second .text-1 h4,
+.text-2 h4,
+.text-3 h4,
+.text-4 h4,
+.text-5 h4,
+.text-6 h4 {
+    text-align: justify;
+    font-weight: 400;
+    color: #fff !important;
+}
+
+.carrer-in-mechcinal li,
+.ME-section-second h2 {
+    font-family: BMWTypeNext, Helvetica Neue, -apple-system, "system-ui", BlinkMacSystemFont, serif;
+    font-size: 20px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 26px;
+    letter-spacing: -.1px;
+}
+
+.ME-background-two-images button a {
+    color: #fff !important;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.ME-background-two-images button:hover a {
+    color: #000;
+}
+
+.ME-background-two-images-darklayer {
+    width: 44.5%;
+    background: #000;
+    height: 100px;
+    position: absolute;
+    opacity: 0.5;
+    margin-left: 2%;
+    height: 532px;
+    top: 31.9%;
+    border-radius: 20px;
+}
+
+.ME-background-two-images-darklayer.second {
+    right: 65px;
+}
+
+.ME-background-two-images-darklayer.third {
+    top: 48.5%;
+    height: 470px;
+}
+
+.ME-background-two-images-darklayer.fourth {
+    top: 48.5%;
+    height: 470px;
+    right: 65px;
+}
+
+.ME-background-two-images.single-box .text-3 {
+    top: 65%;
+}
+
+.ME-background-two-images-darklayer.fifth {
+    top: 63.5%;
+    height: 470px;
+}
+
+.ME-background-two-images {
+    display: flex;
+}
+
+.ME-background-two-images img {
+    width: 47%;
+    margin: 30px;
+    border-radius: 25px;
+}
+
+.ME-background-two-images .text-4 {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    flex-direction: column;
+    top: 1650px;
+    right: 10%;
+}
+
+.ME-background-two-images .text-2 {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    flex-direction: column;
+    top: 1145px;
+    right: 10%;
+}
+
+.ME-background-two-images .text-2 h3,
+.text-1 h3,
+.text-3 h3,
+.text-4 h3,
+.text-5 h3,
+.text-6 h3 {
+    color: #fff !important;
+    font-size: 28px;
+}
+
+.ME-background-two-images .text-1 {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    flex-direction: column;
+    top: 1145px;
+    left: 6%;
+}
+
+.ME-background-two-images .text-3 {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    flex-direction: column;
+    top: 1650px;
+    left: 6%;
+}
+
+.ME-background-two-images button:hover {
+    color: #000;
+    background-image: linear-gradient(to right, #535CF1, #A147E4);
+}
+
+@media screen and (max-width: 1398) {
+
+    .ME-background-two-images .text-1,
+    .text-2 {
+        top: 800px;
+    }
+
+    .ME-background-two-images .text-3,
+    .text-4 {
+        top: 1350px;
+    }
+}
+
+.ME-overview {
+    text-align: center !important;
+    color: #000 !important;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.ME-overview-text {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center !important;
+}
+
+.text-1 h4,
+.text-2 h4,
+.text-3 h4,
+.text-4 h4,
+.text-5 h4,
+.text-6 h4 {
+    font-family: BMWTypeNext, Helvetica Neue, -apple-system, "system-ui", BlinkMacSystemFont, serif;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 26px;
+    letter-spacing: -.1px;
+}
+
+.text-1 button,
+.text-2 button,
+.text-3 button,
+.text-4 button,
+.text-5 button,
+.text-6 button {
+    font-size: 11px;
+    color: #fff !important;
+    border-color: #fff !important;
+    padding: 10px;
+    cursor: pointer;
+    width: 20%;
+    margin: 6px 0;
+    transition: 0.4s ease-in;
+    /* background-image: none; */
+    background-color: none;
+    background: none;
+}
+
+.ME-background-two-images .text-2 h3,
+.text-1 h3,
+.text-3 h3,
+.text-4 h3,
+.text-5 h3,
+.text-6 h3 {
+    color: #fff !important;
+    font-size: 28px;
+    text-align: left;
+}
+
+.ME-background-two-images .text-1 {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    flex-direction: column;
+    top: 1145px;
+    left: 6%;
+}
+
+.text-1 button,
+.text-2 button,
+.text-3 button,
+.text-4 button,
+.text-5 button,
+.text-6 button {
+    font-size: 11px;
+    color: #fff !important;
+    border-color: #fff !important;
+    padding: 10px;
+    cursor: pointer;
+    width: 20%;
+    margin: 6px 0;
+    transition: 0.4s ease-in;
+    /* background-image: none; */
+    background-color: none;
+    background: none;
+}
+
+.ME-section-second .text-1,
+.text-2,
+.text-3,
+.text-4,
+.text-5,
+.text-6 {
+    width: 36%;
+}
+
+.ME-section-second .text-1 h4,
+.text-2 h4,
+.text-3 h4,
+.text-4 h4,
+.text-5 h4,
+.text-6 h4 {
+    text-align: justify;
+    font-weight: 400;
+    color: #fff !important;
+}
+
+.text-1 h4,
+.text-2 h4,
+.text-3 h4,
+.text-4 h4,
+.text-5 h4,
+.text-6 h4 {
+    font-family: BMWTypeNext, Helvetica Neue, -apple-system, "system-ui", BlinkMacSystemFont, serif;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 26px;
+    letter-spacing: -.1px;
+}
+
+@media screen and (max-width: 1398) {
+
+    .ME-background-two-images .text-1,
+    .text-2 {
+        top: 800px;
+    }
+
+    .ME-background-two-images .text-3,
+    .text-4 {
+        top: 1350px;
+    }
+}

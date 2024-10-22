@@ -1,0 +1,215 @@
+.Aboutus-header-section-backgroundimg {
+    overflow: hidden;
+}
+
+.Aboutus-header-section-backgroundimg img {
+    width: 100%;
+}
+
+.Aboutus-header-section-backgroundtext {
+    transform: translate(0px, -28vw);
+    padding-left: 8vw;
+}
+
+.Aboutus-header-section-backgroundtext-title {
+    font-size: 5vw;
+    color: #fff;
+    font-weight: 400;
+}
+
+.Aboutus-lower-line {
+    width: 23vw;
+    height: 0.3vw;
+    background-image: linear-gradient(to right, #181a46, #803cb2);
+    margin-top: 15px;
+}
+
+.Aboutus-header-section {
+    overflow: hidden;
+}
+
+/* about us informations section */
+
+.Aboutus-information-heading {
+    font-size: 4.5vw;
+    text-align: center;
+    font-family: 'Kanit', sans-serif !important;
+    text-transform: uppercase;
+}
+
+.Aboutus-information-information {
+    text-align: center;
+    font-size: 1.1vw;
+    font-family: BMWTypeNext, Helvetica Neue, -apple-system, "system-ui", BlinkMacSystemFont, serif;
+    font-weight: 400;
+}
+
+
+/* Aboutus Speciality */
+.Aboutus-Speciality {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #ebebeb;
+    height: fit-content;
+    flex-direction: column;
+    padding: 8vw 0;
+}
+
+.vision,
+.mission,
+.capabilities {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-self: center;
+    align-items: center;
+}
+
+.capabilities-text,
+.vision-text,
+.mission-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.capabilities-text h1,
+.vision-text h1,
+.mission-text h1 {
+    font-size: 3.2vw;
+    font-family: 'Kanit', sans-serif !important;
+}
+.vision{
+    grid-template-rows: 0fr 1.5fr;
+    width: 100%;
+}
+.capabilities-text h2,
+.vision-text h2.AboutUsVision-h2,
+.mission-text h2 {
+    font-size: 1vw;
+    /* font-family: 'Kanit', sans-serif !important; */
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400;
+    font-family: BMWTypeNext, Helvetica Neue, -apple-system, "system-ui", BlinkMacSystemFont, serif;
+}
+.vision-text{
+    transform: translate();
+}
+/* Our team section */
+
+.Aboutus-Meetourteam-heading {
+    font-size: 4.5vw;
+    text-align: center;
+    font-family: 'Kanit', sans-serif !important;
+    text-transform: uppercase;
+}
+
+.Aboutus-Meetourteam-defination {
+    font-size: 1.2vw;
+    margin-top: 1vw;
+    text-align: center;
+    font-family: BMWTypeNext, Helvetica Neue, -apple-system, "system-ui", BlinkMacSystemFont, serif;
+    font-weight: 400;
+}
+
+.Aboutus-Meetourteam-card-main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Aboutus-Meetourteam-card {
+    padding: 25px 15px;
+    width: 93%;
+    background: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    border-radius: 20px;
+}
+.calculator-defination-div.Member1{
+    padding: 25px 15px;
+    width: 25%;
+    /* background: #fff; */
+    height: 72vh;
+    border-radius: 20px;
+}
+.calculator-defination-section-div.Member1.expanded{
+    height: 100%;
+    width: 100%;
+}
+.Aboutus-Meetourteam-card-img {
+    display: flex;
+    justify-content: center;
+    border-radius: 150px;
+    align-items: center;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+}
+
+.Aboutus-Meetourteam-card-img img {
+    width: -webkit-fill-available;
+}
+
+.Aboutus-Meetourteam-card-text-name {
+    font-size: 2vw;
+    text-align: center;
+    font-weight: 400;
+}
+
+.Aboutus-Meetourteam-card-text-information {
+    text-align: center;
+    font-weight: 400;
+    padding-top: 10px;
+    font-size: 1.2vw;
+}
+
+/* upwork section */
+
+.Aboutus-UpworkWork {
+    background: #fff;
+    width: 90%;
+    border-radius: 2.5vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0px);
+
+}
+
+.Aboutus-UpworkWork-heading {
+    font-size: 3.5vw;
+    font-family: 'Kanit', sans-serif !important;
+    text-transform: uppercase;
+    width: fit-content;
+    transform: translate(6vw, 0px);
+}
+
+.Aboutus-UpworkWork-subheading {
+    width: fit-content;
+    transform: translate(6vw, -0.5vw);
+    font-family: BMWTypeNext, Helvetica Neue, -apple-system, "system-ui", BlinkMacSystemFont, serif;
+    font-weight: 300;
+}
+
+.aboutus-upworkwork-btn {
+    width: 6vw;
+    transform: translate(6vw, 0px);
+    height: 1vw;
+    padding: 0.8vw;
+    background: #fff;
+    border-radius: 2vw;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutus-upworkwork-btn a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.1vw;
+}

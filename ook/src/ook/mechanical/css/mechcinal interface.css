@@ -1,0 +1,239 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.ME-navbar {
+    background: #000000;
+    position: fixed;
+    width: 100%;
+    z-index: 8;
+    display: flex;
+    padding: 0;
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.ME-navbar.sticky {
+    background: #000;
+    z-index: 1000;
+}
+
+
+
+.ME-background-text {
+    position: absolute;
+    top: 850px;
+    left: 20%;
+    right: 10%;
+}
+
+.ME-background-text h1 {
+    color: #fff!important;
+    font-size: 45px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 0.2fr 0.5fr 1fr 0.6fr;
+    width: 750px;
+    border: 1px solid;
+    margin-left: 30px;
+}
+
+.jkg {
+    display: grid;
+    grid-auto-rows: 0.4fr 0.7fr 1fr 0.8fr 0.6fr 0.7fr 0.7fr 0.3fr 0.8fr 0.5fr;
+    border: 1px solid;
+}
+
+.jkg li {
+    list-style: none;
+}
+
+p {
+    border: 1px solid;
+    text-align: center;
+}
+
+.gray {
+    background-color: gainsboro;
+}
+
+.imgGrid {
+    display: grid;
+}
+
+.imgGrid img {
+    width: 400px;
+}
+
+.ME-section-third .box {
+    background: #fff!important;
+}
+
+.ME-navbar img {
+    width: 40px;
+}
+
+
+.ME-navbar.sticky .ME-burgur .ME-line {
+    background: #000;
+}
+
+
+
+.ME-background-text button {
+    background: none;
+    font-size: 11px;
+    color: #fff!important;
+    border-color: #fff!important;
+    padding: 10px;
+    cursor: pointer;
+    margin: 6px 0;
+    transition: 0.4s ease-in;
+}
+
+
+
+.ME-background button:hover {
+    background: #fff!important;
+    color: #000;
+}
+
+.full-image {
+    width: 100%;
+}
+
+
+.ME-overview-heading {
+    color: #000000;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.ME-History h3,
+h4,
+h5,
+h1,
+h2,
+p {
+    color: #fff!important;
+    border: none;
+    text-align: center;
+}
+
+.ME-Carrer h1,
+h2,
+h3,
+h4,
+h5,
+p,
+li {
+    color: #fff!important;
+    border: none;
+    text-align: center;
+    list-style: none;
+}
+
+.ME-section-third {
+    background: #000;
+}
+
+.ME-history-topices,
+.ME-Carrer-topices {
+    font-size: 40px;
+    padding: 15px 0px;
+    text-align: center !important;
+}
+
+img.ME-carrer-img {
+    width: 100%;
+    opacity: 0.8;
+}
+
+.ME-Carrer ul {
+    padding: 0 10px;
+}
+
+
+
+
+
+
+footer{
+    background: #282c2f;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding: 80px 60px;
+}
+footer .footer-section-one img{
+ width: 50px;
+}
+.center{
+    text-align: center!important;
+}
+
+footer li{
+    background: #393d41;
+    padding: 10px;
+    margin: 5px;
+    color: #fff!important;
+}
+
+footer a{
+    color: #fff!important;
+}
+li.contact-us {
+    background: none;
+    text-align: center;
+    font-size: 22px;
+}
+.ME-header-overview{
+    font-weight: 400;
+    font-size: 19px;
+    margin: 3% 0;
+    text-align: center;
+}
+
+navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+navbar ul li {
+    padding: 20px 15px;
+    color: #6b6b6b;
+    margin: 5px 20px;
+    border-bottom: 2px solid transparent;
+}
+navbar ul li:hover {
+    color: #000;
+    border-bottom: 2px solid #000!important;
+}
+.gbp-h3.left{
+    text-align: left!important;
+    left: -32%;
+}
+.text-5 button,
+.text-6 button{
+ width: 110px;
+}
+.text-5, .text-6{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    flex-direction: column;
+    top: 2190px;
+}
+.text-5{
+    left: 6%;
+}
+.text-6{
+    right: 10%;
+}
+.gbp-button.gbp-button--ghost.js-overwriteLink:hover a {
+    color: #fff!important;
+}

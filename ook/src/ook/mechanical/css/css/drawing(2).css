@@ -1,0 +1,314 @@
+#root {
+  width: 100%;
+}
+
+.carousel {
+  z-index: 100;
+}
+
+.carousel,
+.carousel2 {
+  position: relative;
+  width: 98%;
+  height: 70vh;
+  overflow: hidden;
+  background: #f9f9f9;
+  border: 6px solid #000;
+  /* width: 95%; */
+  margin: 0 0.5%;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.carousel-slide1,
+.carousel2-slide1 {
+  position: absolute;
+  left: -100%;
+  transition: 1s ease-in-out;
+  cursor: pointer;
+  z-index: 2;
+  width: 70%;
+  height: 100%;
+  color: #fff;
+  padding: 0 30px;
+}
+
+.carousel-slide2 .prev-button,
+.carousel2-slide2 .prev-button {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 1s ease-in-out;
+  cursor: pointer;
+  overflow: hidden;
+  color: #fff;
+  transform: scale(.9);
+  padding: 30px;
+}
+
+.carousel-slide1.active,
+.carousel2-slide1.active {
+  right: 0;
+  left: 0;
+}
+
+.carousel-slide2.active .prev-button,
+.carousel2-slide2.active .prev-button {
+  left: 0;
+  transform: scale(1);
+}
+
+.carousel-button,
+.carousel2-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px 20px;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  display: none;
+}
+
+.carousel .carousel-slide1 img,
+.carousel2 .carousel2-slide1 img {
+  transform: translate(-00%, -150px);
+  transition: 2.5s;
+  opacity: 0;
+}
+
+.carousel2 .carousel2-slide1.active img,
+.carousel .carousel-slide1.active img {
+  transform: translate(750px, -150px);
+  opacity: 1;
+}
+
+.carousel .carousel-slide2 img {
+  transform: translate(200%, 150px);
+  transition: 1s;
+  opacity: 0;
+  z-index: 10;
+}
+
+.carousel .carousel-slide2.active img {
+  transform: translate(850px, 150px) !important;
+  opacity: 1;
+  z-index: 10;
+}
+
+.z-index {
+  z-index: 100;
+}
+
+.carousel .carousel-slide1 .opacity {
+  opacity: 0 !important;
+  transform: translate(450px, -150px) !important;
+  z-index: none;
+}
+
+.carousel .carousel-slide1.active img.opacity {
+  opacity: 1 !important;
+}
+
+img {
+  width: 500px;
+}
+
+.z-index.main {
+  display: flex;
+}
+
+body {
+  margin: 0;
+}
+
+/* mea-navbar css */
+.mae-drawing-slider-navbar-ul {
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  
+  width: 40%;
+}
+
+div.mae-drawing-slider-nav-logo-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li.mae-drawing-slider-nav-logo {
+  padding-right: 20%;
+}
+
+li.mae-drawing-slider-nav-logo,
+li.mae-drawing-slider-nav-topics {
+  list-style: none;
+  color: #fff;
+  padding: 5% 18px;
+}
+
+div.mae-drawing-slider-nav-topic-right {
+  display: flex;
+  margin: 0px 10px;
+}
+
+/* slider with border css */
+.mae-drawing-slider-borders {
+  /* border: 6px solid; */
+  width: 95%;
+  margin: 0 2.5%;
+  /* border-radius: 25px; */
+  /* overflow: hidden; */
+}
+
+/* bubble css */
+
+.bubble {
+  width: 40px;
+  height: 40px;
+  box-shadow: 3px 2px 5px 0px #bcbcbc;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+}
+
+.bubble.bubble1 {
+  top: 80px;
+  left: 120px;
+}
+
+.bubble.bubble2 {
+  top: 30%;
+  left: 0px;
+  width: 300px;
+  height: 300px;
+}
+
+.bubble.bubble3 {
+  top: 8%;
+  left: 92%;
+  width: 90px;
+  height: 90px;
+  right: 100%;
+}
+
+.bookmark-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bookmark-icon i {
+  font-size: 40px;
+  color: #ffcc00;
+}
+
+.bookmark-icon .bookmark-text {
+  font-size: 16px;
+  color: #000000;
+  margin-top: 5px;
+}
+
+.mae-drawing-slider-button-bookmark-xd,
+.mae-drawing-slider-button-bookmark-ui {
+  padding: 0px;
+  margin: 0 20px;
+  outline: none;
+  display: flex;
+  font-size: 32px;
+  justify-content: center;
+}
+
+
+.mae-drawing-slider-button-bookmark-ui {
+  margin-right: 50px;
+}
+
+
+.mae-drawing-slider-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mae-drawing-slider-button-bookmarks {
+  display: flex;
+  justify-content: space-around;
+}
+
+.carousel2-slide2.transtionstart .prev-button,
+.carousel-slide2.transtionstart .prev-button {
+  width: 50%;
+  right: 0;
+  transform: scale(1);
+  /* z-index: 100; */
+}
+
+.carousel2-slide1.active.transtionstart,
+.carousel-slide1.active.transtionstart {
+  width: 50%;
+  z-index: 100;
+
+}
+
+.carousel2 {
+  top: -76vh;
+  z-index: 0;
+  transition: 1.5s;
+  transition-delay: 1s;
+  opacity: 1;
+}
+
+.carousel2.transtionstart {
+  opacity: 1;
+  top: 2vh;
+
+}
+
+.carousel2 .carousel2-slide1 {
+  
+}
+
+.carousel2 .carousel2-slide2 .prev-button {
+  
+}
+
+/* .carousel2.transtionstart{
+  animation-name: slidesintodiv;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 1s;
+} */
+
+.mae-drawing-slider-footer-social-media svg {}
+
+.carousel {
+  color: #fff !important;
+}
+.mae-drawing-slider-button-bookmark-xd,
+.mae-drawing-slider-button-bookmark-ui{
+  background: none;
+  border: none;
+  outline: none;
+}
+.mae-drawing-slider-button-bookmark-text svg{
+  background-image: linear-gradient(to right, #535CF1, #A147E4);
+    color: #fff;
+    padding: 8px 8px;
+    border-radius: 50px;
+    margin: 10px;
+}
+.mae-drawing-slider-button-bookmark-text svg path{
+ color: #fff;
+}
+.mae-drawing-slider-button-bookmark-ui .small{
+  margin: 0;
+}
+.mae-drawing-slider-button-bookmark-ui .small svg{
+  font-size: 33px;
+    padding: 5px!important;
+}
+.forming.carousel.carousel2{
+  top: -79vh;
+}

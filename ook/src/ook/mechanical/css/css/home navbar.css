@@ -1,0 +1,186 @@
+body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+.Home-nav{
+    background: none;
+    position: absolute;
+    top: 0;
+    /* display: block; */
+    padding: 0;
+    z-index: 1;
+    width: 100%;
+}
+.Home-logo{
+    text-align: center;
+    background: #000;
+    /* display: block; */
+    padding: 10px;
+}
+.Home-nav .Home-logo img {
+    width: 3rem;
+}
+.home-nav-background{
+    background: #000000ad;
+}
+.home-nav-background ul{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-nav-background ul li{
+    color: #fff;
+    padding: 10px 40px;
+}
+/*--section-1 css--*/
+.height {
+    height: 10px;
+}
+
+.image-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    height: 85vh;
+    overflow: hidden;
+}
+
+.next {
+    right: 0;
+}
+
+.previous,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 10px;
+    margin-top: -25px;
+}
+
+.captionText {
+    color: #000000;
+    font-size: 14px;
+    position: absolute;
+    padding: 12px 12px;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.slideNumber {
+    background-color: #5574C5;
+    color: white;
+    border-radius: 25px;
+    right: 0;
+    opacity: .5;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    position: absolute;
+}
+
+.footerdot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.slide-2 {
+    background-image: linear-gradient(to right, #535cf194, #a147e4b5), url('../../images/Screenshot (148).png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.container.row .col .text-center h4 {
+    margin-top: 0;
+    margin-bottom: -2%;
+}
+
+.slide-2 img.theme-backgound {
+    background-image: linear-gradient(to right, #535cf194, #a147e4b5), url('../../images/Screenshot (148).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.slide a {
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 500;
+    color: white;
+    background-image: linear-gradient(to right, #535CF1, #A147E4);
+    border-radius: 35px;
+    padding: 1.1rem;
+}
+
+.slide a:hover {
+    background-image: linear-gradient(to left, #535CF1, #A147E4);
+}
+
+nav .search-box:hover svg {
+    color: #fff;
+}
+
+input.input {
+    padding: 10px;
+}
+
+nav .search-bar .search-box:hover input.input {
+    width: 70%;
+    color: white;
+}
+section.Home .Home-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--r-globalnav-color);
+    position: relative;
+    z-index: 1;
+    padding: 0 calc(9px / var(--r-globalnav-text-zoom-scale, 1));
+    height: 44px;
+    background: no-repeat;
+    text-decoration: none;
+    white-space: nowrap;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    outline-offset: -7px;
+    transition: color .32s cubic-bezier(.4,0,.6,1);
+}
+.Home-nav-transtion{
+    position: fixed;
+    top: 49px;
+    width: 100%;
+    transition: 0.6s ease-in-out;
+    opacity: 1;
+    z-index: -1;
+}
+.Home-nav.sticky div.Home-nav-transtion {
+    top: -6px;
+    opacity: 0;
+}
+.Home-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
